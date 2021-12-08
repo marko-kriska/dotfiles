@@ -22,6 +22,7 @@ start-pulseaudio-x11 &
 xbanish &
 nitrogen --restore &
 xfce4-power-manager &
+redshift -l 45.815399:15.966568 &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 gnome-keyring-daemon --start --components=pkcs11 &
 xset dpms 600 900 1200
