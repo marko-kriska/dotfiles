@@ -30,7 +30,7 @@ nitrogen --restore &
 
 # power
 xfce4-power-manager &
-redshift -l 45.815399:15.966568 &
+#redshift -l 45.815399:15.966568 &
 xset dpms 600 900 1200
 xset r rate 350 60
 
@@ -38,7 +38,8 @@ xset r rate 350 60
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 gnome-keyring-daemon --start --components=pkcs11 &
 
-# dwm 
+# statusbar
+#/home/kriska/.suckless/dwm-bar/dwm_bar.sh &
 slstatus &
 exec dwm
 
