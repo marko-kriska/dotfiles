@@ -38,8 +38,7 @@ xset r rate 350 60
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 gnome-keyring-daemon --start --components=pkcs11 &
 
-# statusbar
-#/home/kriska/.suckless/dwm-bar/dwm_bar.sh &
+# dwm
 slstatus &
 exec dwm
 
