@@ -10,8 +10,11 @@ alias ls='exa --icons'
 PS1='[\u@\h \W]\$ '
 
 # autostart
-pfetch
+#pfetch
 
 # starship
 eval "$(starship init bash)"
+
+# random color script
+colorscript random
 
