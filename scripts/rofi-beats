@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh 
 
 # add more args here according to preference
 ARGS="--volume=60"
@@ -19,7 +19,9 @@ menu(){
 	printf "3. Box Lofi\n"
 	printf "4. The Bootleg Boy\n"
 	printf "5. Radio Spinner\n"
-	printf "6. SmoothChill"
+	printf "6. Radio Spinner 80hs\n"
+	printf "7. Radio Spinner 90hs\n"
+	printf "8. SmoothChill"
 }
 
 main() {
@@ -52,6 +54,16 @@ main() {
 			break
 			;;
 		6)
+			notification "Radio Spinner 80hs ☕️🎶";
+            URL="https://live.radiospinner.com/80hs-64"
+			break
+			;;
+		7)
+			notification "Radio Spinner 90hs ☕️🎶";
+            URL="https://live.radiospinner.com/90hs-64"
+			break
+			;;
+		8)
 			notification "SmoothChill ☕️🎶";
             URL="https://media-ssl.musicradio.com/SmoothChill"
 			break
