@@ -39,6 +39,7 @@ xset r rate 350 60
 gnome-keyring-daemon --start --components=pkcs11 &
 
 # dwm
+picom &
 slstatus &
 exec dwm
 
