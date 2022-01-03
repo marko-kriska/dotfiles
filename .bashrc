@@ -11,10 +11,12 @@ PS1='[\u@\h \W]\$ '
 
 # autostart
 #pfetch
+colorscript random
 
 # starship
 eval "$(starship init bash)"
 
-# random color script
-colorscript random
+# ls-Xtended
+source ~/.config/lsx/lsx.sh
+
 
