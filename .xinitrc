@@ -17,10 +17,6 @@ fi
 
 # launch the session, commands below this line will be ignored
 
-# applets
-#volumeicon &
-#nm-applet &
-
 # pulseaudio
 start-pulseaudio-x11 &
 
@@ -41,6 +37,7 @@ gnome-keyring-daemon --start --components=pkcs11 &
 # dwm
 picom &
 slstatus &
-#dwmblocks &
-exec dwm
+while true; do
+	/usr/local/bin/dwm 2> /dev/null
+done
 
