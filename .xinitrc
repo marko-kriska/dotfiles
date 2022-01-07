@@ -37,7 +37,5 @@ gnome-keyring-daemon --start --components=pkcs11 &
 # dwm
 picom &
 slstatus &
-while true; do
-	/usr/local/bin/dwm 2> /dev/null
-done
+exec dwm
 
