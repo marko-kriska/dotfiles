@@ -1,2 +1,2 @@
-browser "chromium %u"
+browser "brave %u"
 max-items 50
