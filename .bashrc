@@ -11,6 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 # autostart
 #pfetch
+#neofetch
 colorscript random
 
 # starship
