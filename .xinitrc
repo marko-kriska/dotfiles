@@ -53,8 +53,13 @@ start-pulseaudio-x11 &
 
 # cursor and wallpaper
 xbanish &
-dunst &
 nitrogen --restore &
+
+# notification
+dunst &
+
+# transparency
+picom &
 
 # power
 xfce4-power-manager &
