@@ -1,41 +1,64 @@
 #!/bin/sh
 
-# this file is run when calling startx
+userresources=$HOME/.Xresources
+usermodmap=$HOME/.Xmodmap
+sysresources=/etc/X11/xinit/.Xresources
+sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# default arch init scripts
-if [ -d /etc/X11/xinit/xinitrc.d ]; then
-    for f in /etc/X11/xinit/xinitrc.d/?*.sh; do
-        [ -x "$f" ] && . "$f"
-    done
+# merge in defaults and keymaps
+
+if [ -f $sysresources ]; then
+
+
+
+
+
+
+
+    xrdb -merge $sysresources
+
 fi
 
-# user init scripts and settings
-[ -r /etc/X11/xinit/.Xmodmap ] && xmodmap /etc/X11/xinit/.Xmodmap
-[ -r ~/.Xmodmap ] && xmodmap ~/.Xmodmap
-[ -r ~/.Xresources ] && xrdb -merge ~/.Xresources
-[ -r ~/.xprofile ] && . ~/.xprofile
+if [ -f $sysmodmap ]; then
+    xmodmap $sysmodmap
+fi
 
-# launch the session, commands below this line will be ignored
+if [ -f "$userresources" ]; then
+
+
+
+
+
+
+
+    xrdb -merge "$userresources"
+
+fi
+
+if [ -f "$usermodmap" ]; then
+    xmodmap "$usermodmap"
+fi
+
+# start some nice programs
+
+if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+ for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+  [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
 
 # pulseaudio
 start-pulseaudio-x11 &
 
 # cursor and wallpaper
 xbanish &
+dunst &
 nitrogen --restore &
 
 # power
 xfce4-power-manager &
-#redshift -l 45.815399:15.966568 &
-xset dpms 600 900 1200
-xset r rate 350 60
-
-# authentication agent and keyring
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-gnome-keyring-daemon --start --components=pkcs11 &
 
 # dwm
-picom &
 slstatus &
 exec dwm
-
