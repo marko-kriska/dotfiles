@@ -100,17 +100,17 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: JetBrainsMono Nerd Font
+    family: Terminus
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: JetBrainsMono Nerd Font
-    # family: UbuntuMono Nerd Font
+    # family: Terminus
+    # family: Terminus
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
     # The `style` can be specified to pick a specific face.
-    style: Regular 
+    style: Regular
 
   # Bold font face
   bold:
@@ -118,12 +118,12 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMono Nerd Font
+    family: Terminus
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: JetBrainsMono Nerd Font
-    # family: UbuntuMono Nerd Font
+    # family: Terminus
+    # family: Terminus
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
@@ -136,12 +136,12 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMono Nerd Font
+    family: Terminus
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: JetBrainsMono Nerd Font
-    # family: UbuntuMono Nerd Font
+    # family: Terminus
+    # family: Terminus
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
@@ -154,12 +154,12 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrainsMono Nerd Font
+    family: Terminus
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: JetBrainsMono Nerd Font
-    # family: UbuntuMono Nerd Font
+    # family: Terminus
+    # family: Terminus
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
