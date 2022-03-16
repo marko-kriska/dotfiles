@@ -9,12 +9,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 if [ -f $sysresources ]; then
 
-
-
-
-
-
-
     xrdb -merge $sysresources
 
 fi
@@ -24,12 +18,6 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
 
     xrdb -merge "$userresources"
 
@@ -59,11 +47,14 @@ nitrogen --restore &
 dunst &
 
 # transparency
-picom &
+#picom &
 
 # power
 xfce4-power-manager &
 
 # dwm
 slstatus &
-exec dwm
+while true; do
+	/usr/local/bin/dwm 2> /dev/null
+done
+
