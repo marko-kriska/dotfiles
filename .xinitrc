@@ -57,6 +57,3 @@ slstatus &
 while true; do
 	/usr/local/bin/dwm 2> /dev/null
 done
-
-# spectrwm
-exec spectrwm
