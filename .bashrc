@@ -9,12 +9,13 @@
 alias ls='exa -al --color=always --group-directories-first'
 alias vim=nvim
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias cp="cp -i"
-alias mv='mv -i'
-alias rm='rm -i'
+#alias cp="cp -i"
+#alias mv='mv -i'
+#alias rm='rm -i'
 
 # autostart
 eval "$(starship init bash)"
+colorscript random
 
 # archive extraction 
 # usage: ex <file>
@@ -42,4 +43,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
