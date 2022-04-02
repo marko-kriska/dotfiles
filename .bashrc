@@ -1,14 +1,14 @@
-# Export
+# export
 export TERM="xterm-256color"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Autostart 
+# autostart 
 eval "$(starship init bash)"	
 colorscript random	
 
-# Aliases 
+# aliases 
 alias vim=nvim
 alias ls='exa -al --color=always --group-directories-first'
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -22,7 +22,7 @@ alias aptsr='sudo apt search'
 #alias mv='mv -i'
 #alias rm='rm -i'
 
-# Archive extraction 
+# archive extraction 
 # usage: ex <file>
 ex ()
 {
