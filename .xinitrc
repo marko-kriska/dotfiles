@@ -47,7 +47,7 @@ nitrogen --restore &
 dunst &
 
 # transparency
-#picom &
+# picom &
 
 # power
 xfce4-power-manager &
