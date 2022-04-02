@@ -16,6 +16,14 @@ alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacma
 #alias mv='mv -i'
 #alias rm='rm -i'
 
+# apt
+alias aptup='sudo apt update && sudo apt upgrade'
+alias aptupd='sudo apt update'
+alias aptupg='sudo apt upgrade'
+alias aptin='sudo apt install'
+alias aptrm='sudo apt remove'
+alias aptsr='sudo apt search'
+
 ### AUTOSTART 
 eval "$(starship init bash)"		# starship prompt
 colorscript random		# shell-color-scripts from AUR
