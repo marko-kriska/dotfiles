@@ -1,34 +1,28 @@
-#
-# ~/.bashrc
-#
-
-### EXPORT
-export TERM="xterm-256color"		# getting proper colors
+# Export
+export TERM="xterm-256color"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-### ALIASES 
+# Autostart 
+eval "$(starship init bash)"	
+colorscript random	
+
+# Aliases 
 alias vim=nvim
 alias ls='exa -al --color=always --group-directories-first'
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-#alias cp="cp -i"
-#alias mv='mv -i'
-#alias rm='rm -i'
-
-# apt
 alias aptup='sudo apt update && sudo apt upgrade'
 alias aptupd='sudo apt update'
 alias aptupg='sudo apt upgrade'
 alias aptin='sudo apt install'
 alias aptrm='sudo apt remove'
 alias aptsr='sudo apt search'
+#alias cp="cp -i"
+#alias mv='mv -i'
+#alias rm='rm -i'
 
-### AUTOSTART 
-eval "$(starship init bash)"		# starship prompt
-colorscript random		# shell-color-scripts from AUR
-
-### ARCHIVE EXTRACTION 
+# Archive extraction 
 # usage: ex <file>
 ex ()
 {
