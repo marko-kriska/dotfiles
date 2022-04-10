@@ -10,6 +10,8 @@ colorscript random
 
 # aliases 
 alias vim=nvim
+alias ariav='aria2c -d Videos'
+alias ariad='aria2c -d Downloads'
 alias ls='exa -al --color=always --group-directories-first'
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
 alias aptup='sudo apt update && sudo apt upgrade'
