@@ -5,8 +5,11 @@ export TERM="xterm-256color"
 [[ $- != *i* ]] && return
 
 # autostart 
-eval "$(starship init bash)"	
 colorscript random	
+
+# prompt 
+#PS1='[\u@\h \W]\$ '
+eval "$(starship init bash)"	
 
 # aliases 
 alias vim=nvim
