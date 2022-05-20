@@ -11,3 +11,14 @@ settings:
       stop:1 rgba(255, 197, 66, 0.8))
   colors.webpage.darkmode.enabled:
     global: true
+  url.default_page:
+    global: https://google.com/
+  url.incdec_segments:
+    global:
+    - path
+    - query
+  url.searchengines:
+    global:
+      DEFAULT: https://google.com/?q={}
+  url.start_pages:
+    global: https://google.com

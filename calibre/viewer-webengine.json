@@ -1,0 +1,40 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAAAAABB8AAAQ3AAAAAQAAAAEAAAQeAAAENgAAAAEAAAAAB4AAAAABAAAAAQAABB4AAAQ2"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM0A////AAAEHgAABDYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "hide_tooltips": null,
+    "read_mode": "flow",
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_window_geometry": true
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "George Orwell"
+        ],
+        "key": "/home/kriska/Documents/Kindle Books/George Orwell/1984_ Illustrated (The Evergreen Classics) (792)/1984_ Illustrated (The Evergreen Classics) - George Orwell.epub",
+        "pathtoebook": "/home/kriska/Documents/Kindle Books/George Orwell/1984_ Illustrated (The Evergreen Classics) (792)/1984_ Illustrated (The Evergreen Classics) - George Orwell.epub",
+        "timestamp": "2022-04-20T09:26:55.987Z",
+        "title": "1984: Illustrated (The Evergreen Classics)"
+      },
+      {
+        "authors": [
+          "Laetitia Barbier"
+        ],
+        "key": "/home/kriska/Documents/Kindle Books/Laetitia Barbier/Tarot and Divination Cards_ A Visual Archive (790)/Tarot and Divination Cards_ A Visual Archi - Laetitia Barbier.epub",
+        "pathtoebook": "/home/kriska/Documents/Kindle Books/Laetitia Barbier/Tarot and Divination Cards_ A Visual Archive (790)/Tarot and Divination Cards_ A Visual Archi - Laetitia Barbier.epub",
+        "timestamp": "2022-04-19T19:40:17.847Z",
+        "title": "Tarot and Divination Cards: A Visual Archive"
+      }
+    ]
+  }
+}
