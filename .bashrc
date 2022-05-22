@@ -25,9 +25,9 @@ alias aptupg="sudo apt upgrade"
 alias aptin="sudo apt install"
 alias aptrm="sudo apt remove"
 alias aptsr="sudo apt search"
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -i"
+#alias cp="cp -i"
+#alias mv="mv -i"
+#alias rm="rm -i"
 
 # archive extraction 
 # usage: ex <file>
