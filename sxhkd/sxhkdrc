@@ -8,7 +8,7 @@ alt + w
 
 # terminal emulator
 alt + Return
-	alacritty -vv
+	kitty
 
 # file manager 
 alt + shift + Return
@@ -139,7 +139,7 @@ alt + ctrl + shift + space
 #
 
 # expand a window by moving one of its side outward
-alt + ctrl + shift + {h,j,k,l}
+ctrl + shift + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
