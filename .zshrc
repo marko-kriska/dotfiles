@@ -114,10 +114,10 @@ alias ls="${aliases[ls]:-ls} -A"
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
-# automatically run startx when logging in on tty1
-[ -z "$DISPLAY" ] && [ $XDG_VTNR -eq 1 ] && startx
+# add ~/.local/bin to the PATH
+echo $PATH | grep -q "$HOME/.local/bin:" || export PATH="$HOME/.local/bin:$PATH"
 
-# autostart
+# autostart 
 colorscript random
 
 # archive extraction
