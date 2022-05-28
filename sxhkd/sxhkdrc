@@ -8,15 +8,17 @@ alt + w
 
 # terminal emulator
 alt + Return
-	kitty
+	alacritty
 
 # file manager 
 alt + shift + Return
 	pcmanfm
 
 # program launcher
-alt + p 
+alt + shift + p
 	dmenu_run
+alt + p
+	rofi -show run
 
 # passmenu
 alt + ctrl + p
@@ -50,9 +52,9 @@ alt + Escape
 # bspwm hotkeys
 #
 
-# quit/restart bspwm
-alt + shift + {q,r}
-	bspc {quit,wm -r}
+# restart bspwm
+alt + shift + r
+	bspc wm -r
 
 # close and kill
 alt + {_,shift + }q
@@ -150,4 +152,4 @@ alt + ctrl + shift + {h,j,k,l}
 
 # move a floating window
 alt + {Left,Down,Up,Right}
-	:spc node -v {-20 0,0 20,0 -20,20 0}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
