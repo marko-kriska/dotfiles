@@ -19,11 +19,11 @@ menu(){
 	printf "3. Box Lofi\n"
 	printf "4. The Bootleg Boy\n"
 	printf "5. Radio Spinner\n"
-	printf "6. SmoothChill"
-	printf "7. 90s"
-	printf "8. 00s"
-	printf "9. PopMusic"
-	printf "10. PopStars"
+	printf "6. SmoothChill\n"
+	printf "7. 90s\n"
+	printf "8. 00s\n"
+	printf "9. PopMusic\n"
+	printf "10. PopStars\n"
 }
 
 main() {
