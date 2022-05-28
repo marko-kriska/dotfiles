@@ -20,13 +20,21 @@ alt + shift + p
 alt + p
 	rofi -show run
 
+# screenshot
+alt + Print
+	flameshot gui
+
 # passmenu
 alt + ctrl + p
 	passmenu
 
-# dm-radio
+# rofi-beats
 alt + ctrl + r
-	dm-radio
+	rofi-beats-linux
+
+# screen lock 
+alt + shift + l
+	slock
 
 # volume control
 XF86AudioRaiseVolume  
