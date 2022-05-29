@@ -9,4 +9,4 @@ configuration{
     sidebar-mode: false;
 }
 
-@theme "~/.config/rofi/dracula"
+@theme "~/.config/rofi/dracula.rasi"

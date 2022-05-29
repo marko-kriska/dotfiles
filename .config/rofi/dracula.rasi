@@ -2,9 +2,10 @@
 
 * {
     font: "JetBrainsMono Nerd Font 12";
+    lines: 10;
     foreground: #f8f8f2;
     background-color: #282a36;
-    active-background: #6272a4;
+    active-background: #ff3cff;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
@@ -15,10 +16,11 @@
 
 #window {
     background-color: @background-color;
-    border:           1;
-    border-radius: 6;
+    border:           2;
+    border-radius: 0;
     border-color: @bordercolor;
     padding:          5;
+    width: 30%;
 }
 #mainbox {
     border:  0;
