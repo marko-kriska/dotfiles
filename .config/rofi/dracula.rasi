@@ -2,7 +2,6 @@
 
 * {
     font: "JetBrainsMono Nerd Font 12";
-    lines: 10;
     foreground: #f8f8f2;
     background-color: #282a36;
     active-background: #ff3cff;
@@ -41,6 +40,7 @@
     spacing:      2px ;
     scrollbar:    false;
     padding:      2px 0px 0px ;
+    lines: 10;
 }
 #element {
     border:  0;
