@@ -20,8 +20,8 @@ menu(){
 	printf "4. The Bootleg Boy\n"
 	printf "5. Radio Spinner\n"
 	printf "6. SmoothChill\n"
-	printf "7. 90s\n"
-	printf "8. 00s\n"
+	printf "7. 90s Music\n"
+	printf "8. 00s Music\n"
 	printf "9. PopMusic\n"
 	printf "10. PopStars\n"
 }
@@ -61,12 +61,12 @@ main() {
 			break
 			;;
 		7)
-			notification "90s ☕️ 🎶";
+			notification "90s Music ☕️ 🎶";
             URL="https://zeno.fm/radio/90s-rock/"
 			break
 			;;
 		8)
-			notification "00s ☕️ 🎶";
+			notification "00s Music ☕️ 🎶";
             URL="https://zeno.fm/radio/the-2000s/"
 			break
 			;;
