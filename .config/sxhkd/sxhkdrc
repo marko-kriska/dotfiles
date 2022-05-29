@@ -15,10 +15,8 @@ alt + shift + Return
 	pcmanfm
 
 # program launcher
-alt + shift + p
-	dmenu_run
 alt + p
-	rofi -show run
+	rofi -show drun
 
 # screenshot
 alt + Print
@@ -26,7 +24,7 @@ alt + Print
 
 # passmenu
 alt + ctrl + p
-	passmenu
+	rofi-pass	
 
 # rofi-beats
 alt + ctrl + r
