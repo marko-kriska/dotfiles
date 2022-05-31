@@ -11,7 +11,7 @@
   
 - alacritty (terminal)
   
-- fff (file manager)
+- ranger (file manager)
   
 - cmus (music player)
   
