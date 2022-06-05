@@ -30,10 +30,6 @@ alt + ctrl + p
 alt + ctrl + r
 	rofi-beats-linux
 
-# screen lock 
-alt + shift + l
-	slock
-
 # volume control
 XF86AudioRaiseVolume  
 	pactl set-sink-volume 0 +2%
