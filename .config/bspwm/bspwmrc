@@ -23,8 +23,11 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
-bspc rule -a gimp desktop='^3' state=floating follow=on
+bspc rule -a mpv state=fullscreen
 bspc rule -a firefox desktop='^1' follow=on focus=on
+bspc rule -a Steam desktop='^3' follow=on focus=on
+bspc rule -a Lutris desktop='^3' follow=on focus=on
+bspc rule -a Transmission-gtk desktop='^3' state=floating follow=on focus=on
 
 bspc config normal_border_color		"#44475a"
 bspc config active_border_color 	"#6272a4"
