@@ -16,7 +16,7 @@ alt + shift + Return
 
 # program launcher
 alt + p
-	rofi -show run
+	rofi -show drun
 
 # screenshot
 alt + Print
