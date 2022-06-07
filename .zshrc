@@ -106,7 +106,7 @@ alias aptupg="sudo apt upgrade"
 alias aptin="sudo apt install"
 alias aptrm="sudo apt remove"
 alias aptsr="sudo apt search"
-alias image="kitty +kitten icat"
+alias image="kitty +kitten icat"	# needs imagemagick
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
