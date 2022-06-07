@@ -20,7 +20,6 @@ menu(){
 	printf "4. The Bootleg Boy\n"
 	printf "5. Radio Spinner\n"
 	printf "6. SmoothChill\n"
-	printf "7. 00s Music\n"
 }
 
 main() {
@@ -55,11 +54,6 @@ main() {
 		6)
 			notification "SmoothChill ☕️ 🎶";
             URL="https://media-ssl.musicradio.com/SmoothChill"
-			break
-			;;
-		7)
-			notification "00s Music ☕️ 🎶";
-            URL="https://zeno.fm/radio/the-2000s/"
 			break
 			;;
 	esac
