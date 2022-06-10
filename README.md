@@ -9,7 +9,7 @@
   
 - rofi (program launcher)
   
-- alacritty (terminal)
+- kitty (terminal)
   
 - ranger (file manager)
   
