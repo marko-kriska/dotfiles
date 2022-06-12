@@ -58,9 +58,13 @@ alt + Escape
 alt + shift + r
 	bspc wm -r
 
-# close and kill
-alt + {_,shift + }q
-	bspc node -{c,k}
+# quit bspwm
+alt + shift + q
+	bspc quit 
+
+# close
+alt + q
+	bspc node -c
 
 # alternate between the tiled and monocle layout
 alt + m
