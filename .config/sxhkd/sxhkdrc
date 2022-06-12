@@ -8,7 +8,7 @@ alt + w
 
 # terminal emulator
 alt + Return
-	kitty
+	alacritty
 
 # file manager 
 alt + shift + Return
