@@ -42,3 +42,16 @@ alt + shift + q
 
 alt + Escape
 	pkill -USR1 -x sxhkd
+
+XF86AudioRaiseVolume  
+	pactl set-sink-volume 0 +2%
+XF86AudioLowerVolume    
+	pactl set-sink-volume 0 -2%
+XF86AudioMute
+	pactl set-sink-mute 0 toggle
+XF86AudioMicMute
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle
+XF86MonBrightnessUp
+	xbacklight -inc 10%
+XF86MonBrightnessDown
+	xbacklight -dec 10%
