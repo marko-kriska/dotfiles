@@ -19,15 +19,6 @@ alt + ctrl + p
 alt + ctrl + r
 	rofi-beats-linux
 
-alt + Escape
-	pkill -USR1 -x sxhkd
-
-alt + shift + r
-	bspc wm -r
-
-alt + shift + q
-	bspc quit 
-
 alt + q
 	bspc node -c
 
@@ -42,6 +33,15 @@ alt + {_,shift + }{h,j,k,l}
 
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
+
+alt + shift + r
+	bspc wm -r
+
+alt + shift + q
+	bspc quit
+
+alt + Escape
+	pkill -USR1 -x sxhkd
 
 XF86AudioRaiseVolume  
 	pactl set-sink-volume 0 +2%
