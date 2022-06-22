@@ -2,7 +2,7 @@ alt + w
     	firefox
 
 alt + Return
-	alacritty
+	kitty
 
 alt + shift + Return
 	pcmanfm
