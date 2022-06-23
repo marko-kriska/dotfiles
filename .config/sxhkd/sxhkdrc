@@ -2,7 +2,7 @@ alt + w
     	firefox
 
 alt + Return
-	kitty
+	kitty -e fish
 
 alt + shift + Return
 	pcmanfm
