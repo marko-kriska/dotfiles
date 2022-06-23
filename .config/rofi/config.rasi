@@ -1,5 +1,5 @@
 configuration{
-    font: "JetBrainsMono Nerd Font 12";
+    font: "JetBrainsMono Nerd Font Medium 12";
     /*show-icons: true;*/
     icon-theme: "Dracula";
     terminal: "alacritty";
