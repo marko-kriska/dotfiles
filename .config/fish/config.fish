@@ -7,8 +7,9 @@ set TERM "xterm-256color"
 
 # aliases 
 alias vim="nvim"
-alias ariav="aria2c -d Videos"
 alias ariad="aria2c -d Downloads"
+alias ariam="aria2c -d Music"
+alias ariav="aria2c -d Videos"
 alias pacl="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n 20"
 alias ls="exa -al --color=always --icons --group-directories-first"
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
