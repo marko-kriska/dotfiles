@@ -7,7 +7,7 @@
 
 - dwm (tiling window manager)
   
-- dmenu_run (program launcher)
+- rofi (program launcher)
   
 - alacritty (terminal)
   
