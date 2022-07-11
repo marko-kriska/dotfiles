@@ -23,6 +23,5 @@ alias aptsr="sudo apt search"
 alias image="kitty +kitten icat"	# needs imagemagick
 
 # autostart
-#colorscript random
 fetching -r
 starship init fish | source
