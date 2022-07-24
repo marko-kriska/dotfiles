@@ -10,6 +10,7 @@
   "old_prefs_migrated": true,
   "session_data": {
     "controls_help_shown_count": 2,
+    "current_color_scheme": "sepia-dark",
     "hide_tooltips": null,
     "read_mode": "flow",
     "standalone_font_settings": {},
@@ -17,6 +18,24 @@
       "remember_window_geometry": true
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "George Orwell"
+        ],
+        "key": "/home/kriska/Documents/Kindle Books/George Orwell/1984_ Illustrated (The Evergreen Classics) (792)/1984_ Illustrated (The Evergreen Classics) - George Orwell.mobi",
+        "pathtoebook": "/home/kriska/Documents/Kindle Books/George Orwell/1984_ Illustrated (The Evergreen Classics) (792)/1984_ Illustrated (The Evergreen Classics) - George Orwell.mobi",
+        "timestamp": "2022-05-24T12:23:16.096Z",
+        "title": "1984: Illustrated (The Evergreen Classics)"
+      },
+      {
+        "authors": [
+          "Bart D. Ehrman;"
+        ],
+        "key": "/home/kriska/Documents/Kindle Books/Bart D. Ehrman;/Heaven and Hell_ A History of the Afterlife (794)/Heaven and Hell_ A History of the Afterlif - Bart D. Ehrman;.epub",
+        "pathtoebook": "/home/kriska/Documents/Kindle Books/Bart D. Ehrman;/Heaven and Hell_ A History of the Afterlife (794)/Heaven and Hell_ A History of the Afterlif - Bart D. Ehrman;.epub",
+        "timestamp": "2022-05-24T11:54:59.744Z",
+        "title": "Heaven and Hell: A History of the Afterlife"
+      },
       {
         "authors": [
           "George Orwell"
