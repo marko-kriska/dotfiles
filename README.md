@@ -1,15 +1,15 @@
 
 # About My System <a name="About"></a>
 
-![2022-07-24_18-42](https://user-images.githubusercontent.com/95656575/180658748-648b4c44-cb80-45ce-90db-c4319f870aef.png)
+![2022-07-26_23-49](https://user-images.githubusercontent.com/95656575/181118657-0f76e238-af16-445f-b55e-fdbc52df08b3.png)
 
 # What I use
 
-- bspwm (tiling window manager)
+- dwm (tiling window manager)
   
-- rofi (program launcher)
+- dmenu_run (program launcher)
   
-- kitty (terminal)
+- alacritty (terminal)
   
 - ranger (file manager)
   
