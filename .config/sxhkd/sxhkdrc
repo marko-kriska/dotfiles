@@ -34,15 +34,6 @@ alt + {_,shift + }{h,j,k,l}
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-alt + shift + r
-	bspc wm -r
-
-alt + shift + q
-	bspc quit
-
-alt + Escape
-	pkill -USR1 -x sxhkd
-
 alt + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
@@ -54,6 +45,15 @@ alt + ctrl + space
 
 alt + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+alt + shift + r
+	bspc wm -r
+
+alt + shift + q
+	bspc quit
+
+alt + Escape
+	pkill -USR1 -x sxhkd
 
 XF86AudioRaiseVolume  
 	pactl set-sink-volume 0 +2%
