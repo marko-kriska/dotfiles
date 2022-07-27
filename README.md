@@ -5,11 +5,11 @@
 
 # What I use
 
-- bspwm (tiling window manager)
+- dwm (tiling window manager)
   
-- rofi (program launcher)
+- dmenu_run (program launcher)
   
-- kitty (terminal)
+- alacritty (terminal)
   
 - ranger (file manager)
   
