@@ -40,8 +40,4 @@ xfce4-power-manager &
 nitrogen --restore &
 xbanish &
 dunst &
- while true; do
-   xsetroot -name " $( date +"%F %R" )"
-   sleep 1m
-done &
-exec dwm
+exec bspwm
