@@ -43,9 +43,6 @@ alt + ctrl + {1-9}
 alt + ctrl + space
 	bspc node -p cancel
 
-alt + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
 alt + shift + r
 	bspc wm -r
 
