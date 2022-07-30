@@ -4,9 +4,6 @@ alt + w
 alt + Return
 	kitty -e fish
 
-alt + ctrl + s 
-	alacritty --class progterm -e pulsemixer
-
 alt + shift + Return
 	pcmanfm
 

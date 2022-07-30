@@ -23,7 +23,6 @@ bspc config pointer_action3 resize_corner
 bspc rule -a firefox 	desktop='^1' follow=on focus=on
 bspc rule -a Steam 	desktop='^3' follow=on focus=on
 bspc rule -a Lutris	desktop='^3' follow=on focus=on
-bspc rule -a Alacritty	--class progterm state=floating 
 
 bspc config normal_border_color		"#44475a"
 bspc config active_border_color		"#6272a4"
