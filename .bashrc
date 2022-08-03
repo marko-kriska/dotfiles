@@ -25,7 +25,7 @@ alias aptupg="sudo apt upgrade"
 alias aptin="sudo apt install"
 alias aptrm="sudo apt remove"
 alias aptsr="sudo apt search"
-sexkbmap -option ctrl:nocaps
+setxkbmap -option ctrl:nocaps
 #alias cp="cp -i"
 #alias mv="mv -i"
 #alias rm="rm -i"
