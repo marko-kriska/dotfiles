@@ -25,3 +25,4 @@ alias image="kitty +kitten icat"	# needs imagemagick
 
 # autostart
 starship init fish | source
+setxkbmap -option ctrl:nocaps

@@ -5,7 +5,7 @@ export TERM="xterm-256color"
 [[ $- != *i* ]] && return
 
 # autostart 
-colorscript random	
+#colorscript random	
 
 # prompt 
 #PS1='[\u@\h \W]\$ '
@@ -25,6 +25,7 @@ alias aptupg="sudo apt upgrade"
 alias aptin="sudo apt install"
 alias aptrm="sudo apt remove"
 alias aptsr="sudo apt search"
+sexkbmap -option ctrl:nocaps
 #alias cp="cp -i"
 #alias mv="mv -i"
 #alias rm="rm -i"
