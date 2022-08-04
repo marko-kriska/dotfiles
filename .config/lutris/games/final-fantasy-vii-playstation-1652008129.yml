@@ -1,0 +1,5 @@
+game:
+  core: pcsx_rearmed
+  main_file: /home/kriska/Games/final-fantasy-vii/Final Fantasy VII (Disc 1).bin
+libretro: {}
+system: {}

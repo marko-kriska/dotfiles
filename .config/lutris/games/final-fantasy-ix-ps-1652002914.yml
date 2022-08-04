@@ -1,0 +1,5 @@
+game:
+  core: pcsx_rearmed
+  main_file: /home/kriska/Games/final-fantasy-ix/Final Fantasy IX (Disc 1) (v1.1).bin
+libretro: {}
+system: {}

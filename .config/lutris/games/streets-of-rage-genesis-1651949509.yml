@@ -1,0 +1,8 @@
+game:
+  core: genesis_plus_gx
+  main_file: /home/kriska/Games/streets-of-rage/Bare Knuckle - Ikari no Tetsuken ~
+    Streets of Rage (World).md
+libretro: {}
+system:
+  resolution: 1920x1080
+  terminal: false
