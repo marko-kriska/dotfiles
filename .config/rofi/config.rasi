@@ -2,7 +2,7 @@ configuration{
     font: "JetBrainsMono Nerd Font Medium 12";
     /*show-icons: true;*/
     icon-theme: "Dracula";
-    terminal: "kitty";
+    terminal: "alacritty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
