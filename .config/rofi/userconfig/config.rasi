@@ -14,4 +14,5 @@ configuration{
     sidebar-mode: true;
 }
 
-@theme "~/.config/rofi/themes/catppuccin-mocha"
+@theme "catppuccin-mocha"
+
