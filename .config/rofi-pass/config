@@ -72,10 +72,10 @@ xdotool_delay=12
 
 ## Programs to be used
 # Editor
-EDITOR='gvim -f'
+EDITOR='vim'
 
 # Browser
-BROWSER='xdg-open'
+BROWSER='firefox'
 
 ## Misc settings
 
