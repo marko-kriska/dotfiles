@@ -14,9 +14,11 @@ eval "$(starship init bash)"
 
 # aliases 
 alias vim=nvim
-alias ariav="aria2c -d Videos"
 alias ariad="aria2c -d Downloads"
-alias ls="exa -al --color=always --group-directories-first"
+alias ariam="aria2c -d Music"
+alias ariav="aria2c -d Videos"
+alias ani-cli="ani-cli -q best"
+alias dnfls="exa -al --color=always --group-directories-first"
 alias dnfup="sudo dnf upgrade"
 alias dnfin="sudo dnf install"
 alias dnfrm="sudo dnf remove"
