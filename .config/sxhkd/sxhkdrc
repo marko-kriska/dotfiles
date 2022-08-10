@@ -28,11 +28,17 @@ alt + m
 alt + {t,s,f}
 	bspc node -t {tiled,floating,fullscreen}
 
-alt + {_,shift + }{h,j,k,l}
+alt + {_,shift + }{h,jcomma,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
+
+alt + {_,shift} + Tab
+    bspc desktop -f {next,prev}.local
+
+alt + {_,shift} + comma 
+    bspc monitor -f {next,prev}
 
 alt + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
