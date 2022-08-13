@@ -24,9 +24,8 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
-bspc rule -a firefox 	desktop='^1' follow=on focus=on
-bspc rule -a Steam 	desktop='^3' follow=on focus=on
-bspc rule -a Lutris	desktop='^3' follow=on focus=on
+bspc rule -a firefox 	   desktop='^1' follow=on focus=on
+bspc rule -a Steam 	   desktop='^3' follow=on focus=on
 
 bspc config normal_border_color		"#313244"
 bspc config active_border_color		"#cdd5f4"
