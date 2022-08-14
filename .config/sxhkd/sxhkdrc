@@ -7,7 +7,7 @@ alt + Return
 alt + shift + Return
 	pcmanfm
 
-alt + p 
+alt + space
 	rofi -show drun
 
 alt + Print
@@ -18,12 +18,6 @@ alt + ctrl + p
 
 alt + ctrl + r
 	rofi-beats-linux
-
-alt + ctrl + s
-	steam.sh
-
-alt + ctrl + d
-	monitor.sh
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
@@ -45,6 +39,9 @@ alt + {_,shift + }{1-9,0}
 
 alt + {_,shift} + Tab
     bspc desktop -f {next,prev}.local
+
+alt + {_,shift} + F1
+	{monitor_primary.sh,monitor_all.sh}
 
 alt + period 
     bspc monitor -f next
