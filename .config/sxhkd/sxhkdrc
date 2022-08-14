@@ -11,7 +11,7 @@ alt + space
 	rofi -show drun
 
 alt + Print
-	scrot -s
+	scrot -s -e 'mv $f ~/Downloads'
 
 alt + ctrl + p
 	rofi-pass	
