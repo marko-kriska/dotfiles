@@ -19,7 +19,7 @@ alt + ctrl + p
 alt + ctrl + r
 	rofi-beats-linux
 
-alt + ctrl + g
+alt + ctrl + s
 	~/.screenlayout/steam.sh
 
 alt + ctrl + n
