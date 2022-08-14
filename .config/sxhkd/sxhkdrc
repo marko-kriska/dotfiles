@@ -2,7 +2,7 @@ alt + w
     	firefox
 
 alt + Return
-	kitty
+	alacritty
 
 alt + shift + Return
 	pcmanfm
@@ -11,7 +11,7 @@ alt + p
 	rofi -show drun
 
 alt + Print
-	flameshot gui
+	scrot -s
 
 alt + ctrl + p
 	rofi-pass	
