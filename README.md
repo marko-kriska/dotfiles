@@ -1,7 +1,7 @@
 
 # About My System <a name="About"></a>
 
-![2022-08-07_20-44](https://user-images.githubusercontent.com/95656575/183306457-abd789b9-72e2-4fdd-a7b9-80f35090a3a4.png)
+![2022-08-14-175038_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/184544878-8385abf6-aa9d-4ffa-9b17-1afa28abceeb.png)
 
 # What I use
 
@@ -9,7 +9,7 @@
   
 - rofi (program launcher)
   
-- kitty (terminal)
+- alacritty (terminal)
   
 - ranger (file manager)
   
