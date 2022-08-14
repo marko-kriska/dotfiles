@@ -19,6 +19,12 @@ alt + ctrl + p
 alt + ctrl + r
 	rofi-beats-linux
 
+alt + ctrl + g
+	~/.screenlayout/steam.sh
+
+alt + ctrl + n
+	~/.screenlayout/monitor.sh
+
 alt + q
 	bspc node -c
 

@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr
+~/.screenlayout/monitor.sh &
 xfce4-power-manager &
 nitrogen --restore &
 xbanish &
