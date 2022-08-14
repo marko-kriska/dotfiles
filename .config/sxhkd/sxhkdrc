@@ -20,10 +20,13 @@ alt + ctrl + r
 	rofi-beats-linux
 
 alt + ctrl + s
-	~/.screenlayout/steam.sh
+	steam.sh
 
 alt + ctrl + n
-	~/.screenlayout/monitor.sh
+	monitor.sh
+
+alt + ctrl + m
+	alacritty --class pulsemixer,pulsemixer -e pulsemixer
 
 alt + q
 	bspc node -c
