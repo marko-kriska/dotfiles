@@ -7,7 +7,7 @@ alt + Return
 alt + shift + Return
 	nautilus
 
-alt + space
+alt + p 
 	rofi -show drun
 
 alt + Print
