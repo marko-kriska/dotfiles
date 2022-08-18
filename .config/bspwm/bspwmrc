@@ -21,7 +21,6 @@ bspc config pointer_action3 resize_corner
 
 bspc rule -a firefox	desktop='^1' follow=on focus=on
 bspc rule -a Steam	desktop='^3' follow=on focus=on
-bspc rule -a mpv	state=floating sticky=on
 bspc rule -a pulsemixer	state=floating 
 
 bspc config normal_border_color		"#313244"
