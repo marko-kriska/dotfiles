@@ -37,17 +37,17 @@ alt + {_,shift + }{h,j,k,l}
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-alt + {_,shift} + Tab
-    bspc desktop -f {next,prev}.local
+alt + Tab
+	bspc desktop -f last.local
 
 alt + {_,shift} + F1
 	{monitor_primary.sh,monitor.sh}
 
 alt + period 
-    bspc monitor -f next
+	bspc monitor -f next
 
 alt + comma 
-    bspc monitor -f prev
+	bspc monitor -f prev
 
 alt + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
