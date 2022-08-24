@@ -40,8 +40,11 @@ alt + {_,shift + }{1-9,0}
 alt + Tab
 	bspc desktop -f last.local
 
-alt + {_,shift} + F1
-	{monitor_primary.sh,monitor.sh}
+alt + F1
+	monitor_primary.sh
+
+alt + F2
+	monitor.sh 
 
 alt + period 
 	bspc monitor -f next
