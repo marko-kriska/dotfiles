@@ -6,7 +6,6 @@ set fish_greeting
 set TERM "xterm-256color"
 
 # aliases 
-alias vim="nvim"
 alias ariad="aria2c -d Downloads"
 alias ariam="aria2c -d Music"
 alias ariav="aria2c -d Videos"
@@ -16,7 +15,8 @@ alias dnfup="sudo dnf upgrade"
 alias dnfin="sudo dnf install"
 alias dnfrm="sudo dnf remove"
 alias dnfsr="sudo dnf search"
-alias image="kitty +kitten icat"	# needs imagemagick
+#alias image="kitty +kitten icat"	# needs imagemagick
+alias image="sxiv"
 
 # autostart
 starship init fish | source
