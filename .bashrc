@@ -13,6 +13,7 @@ setxkbmap -option ctrl:nocaps
 eval "$(starship init bash)"	
 
 # aliases 
+alias vim="nvim"
 alias ariad="aria2c -d Downloads"
 alias ariam="aria2c -d Music"
 alias ariav="aria2c -d Videos"
