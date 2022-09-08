@@ -5,7 +5,7 @@ while true; do
 done &
 
 # Autostart section
-$HOME/.local/bin/monitor.sh &
+monitor.sh &
 nitrogen --restore &
 xfce4-power-manager &
 xbanish &
