@@ -6,7 +6,6 @@ set fish_greeting
 set TERM "xterm-256color"
 
 # aliases 
-alias vim="nvim"
 alias ariad="aria2c -d Downloads"
 alias ariam="aria2c -d Music"
 alias ariav="aria2c -d Videos"
