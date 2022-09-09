@@ -44,4 +44,3 @@ alias dnfup="sudo dnf upgrade"
 alias dnfin="sudo dnf install"
 alias dnfrm="sudo dnf remove"
 alias dnfsr="sudo dnf search"
-
