@@ -41,10 +41,10 @@ alt + Tab
 	bspc desktop -f last.local
 
 alt + F1
-	monitor_primary.sh
+	monitor_1.sh
 
 alt + F2
-	monitor.sh 
+	monitor_2.sh 
 
 alt + period 
 	bspc monitor -f next
