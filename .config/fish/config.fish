@@ -1,5 +1,5 @@
 # path
-fish_add_path -m ~/.local/bin
+fish_add_path -m $HOME/.local/bin
 
 # export 
 set fish_greeting
