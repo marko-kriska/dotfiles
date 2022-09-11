@@ -1,18 +1,16 @@
 
 # About My System <a name="About"></a>
 
-![2022-08-29-125547_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/187186090-af234bf7-0c3e-4627-91e8-334b36c7ac5c.png)
+![2022-09-11-225511_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/189548499-e3e9ab15-f324-4b80-8229-94d04c5ce2db.png)
 
 # What I use
 
-- bspwm (tiling window manager)
+- dwm (tiling window manager)
   
-- rofi (program launcher)
+- dmenu_run (program launcher)
   
 - alacritty (terminal)
-  
-- ranger (file manager)
-  
+
 - cmus (music player)
   
 - firefox (web browsing)
