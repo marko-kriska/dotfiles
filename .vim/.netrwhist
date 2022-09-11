@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/kriska/.local/bin'
+let g:netrw_dirhist_3='/home/kriska/.config/rofi'
+let g:netrw_dirhist_2='/home/kriska/.dwm'
+let g:netrw_dirhist_1='/home/kriska/.vim/pack/tpope/start/sensible/plugin'
