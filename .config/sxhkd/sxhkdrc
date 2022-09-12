@@ -74,14 +74,14 @@ alt + F12
 	xsecurelock -- systemctl suspend -i
 
 XF86AudioRaiseVolume  
-	pactl set-sink-volume 0 +2%
+	amixer -q set Master 5%+ unmute
 XF86AudioLowerVolume    
-	pactl set-sink-volume 0 -2%
+	amixer -q set Master 5%- unmute
 XF86AudioMute
-	pactl set-sink-mute 0 toggle
+	amixer -q set Master toggle
 XF86AudioMicMute
-	pactl set-source-mute @DEFAULT_SOURCE@ toggle
+	amixer set Capture toggle
 XF86MonBrightnessUp
-	xbacklight -inc 10%
+	brightnessctl set +10
 XF86MonBrightnessDown
-	xbacklight -dec 10%
+	brightnessctl set 10-
