@@ -58,4 +58,5 @@ done &
 monitor_2.sh
 xbanish &
 xbindkeys &
+xfce4-power-manager &
 exec dwm
