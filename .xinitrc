@@ -57,4 +57,5 @@ done &
 # Autostart section
 monitor_2.sh
 xbanish &
+xbindkeys &
 exec dwm
