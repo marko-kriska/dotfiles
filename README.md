@@ -1,7 +1,7 @@
 
 # About My System <a name="About"></a>
 
-![2022-09-12-162118_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/189678635-2648201a-6ee9-45d3-8a5a-aceabede92ff.png)
+![2022-09-15-130116_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/190387653-edf2e44e-7d34-46d1-973c-7f802d797ecb.png)
 
 # What I use
 
