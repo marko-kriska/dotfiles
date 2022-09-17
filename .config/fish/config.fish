@@ -4,6 +4,7 @@ fish_add_path -m $HOME/.local/bin
 # export 
 set fish_greeting
 set TERM "xterm-256color"
+export EDITOR=vim
 
 # aliases 
 alias ariad="aria2c -d Downloads"
@@ -17,11 +18,6 @@ alias dnfrm="sudo dnf remove"
 alias dnfsr="sudo dnf search"
 #alias image="kitty +kitten icat"	# needs imagemagick
 alias image="sxiv"
-alias mirror="export TMPFILE="$(mktemp)"; \
-    sudo true; \
-    rate-mirrors --save=$TMPFILE arch --max-delay=43200 \
-      && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
-      && sudo mv $TMPFILE /etc/pacman.d/mirrorlist"
 
 # autostart
 starship init fish | source

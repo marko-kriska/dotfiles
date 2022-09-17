@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# export 
+set TERM "xterm-256color"
+export EDITOR=vim
+
 # Prompt 
 eval "$(starship init bash)"	
 
