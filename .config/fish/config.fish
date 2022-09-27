@@ -22,4 +22,3 @@ alias image="sxiv"
 # autostart
 starship init fish | source
 setxkbmap -option ctrl:nocaps
-pfetch
