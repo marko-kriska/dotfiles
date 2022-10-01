@@ -9,7 +9,7 @@
   
 - rofi (program launcher)
   
-- kitty (terminal)
+- alacritty (terminal)
 
 - cmus (music player)
   
