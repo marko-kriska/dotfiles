@@ -2,7 +2,7 @@ alt + w
 	firefox
 
 alt + Return
-	kitty
+	alacritty
 
 alt + shift + Return
 	nautilus
@@ -20,7 +20,7 @@ alt + ctrl + r
 	rofi-beats-linux
 
 alt + ctrl + m
-	kitty --class pulsemixer,pulsemixer -e pulsemixer
+	alacritty --class pulsemixer,pulsemixer -e pulsemixer
 
 alt + q
 	bspc node -c
