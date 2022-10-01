@@ -1,13 +1,13 @@
 
 # About My System <a name="About"></a>
 
-![2022-09-15-130116_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/190387653-edf2e44e-7d34-46d1-973c-7f802d797ecb.png)
+![2022-10-01-191732_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/193420800-861dcce2-1903-4392-a928-1055e394c1f1.png)
 
 # What I use
 
-- dwm (tiling window manager)
+- bspwm (tiling window manager)
   
-- dmenu_run (program launcher)
+- rofi (program launcher)
   
 - alacritty (terminal)
 
