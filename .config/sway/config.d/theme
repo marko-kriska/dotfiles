@@ -34,7 +34,7 @@ client.background       #F8F8F2
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    mode hide
+    mode hide 
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
