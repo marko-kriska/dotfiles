@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/kriska/.config/sway/scripts'
+let g:netrw_dirhist_2='/home/kriska/.config/swaylock'
+let g:netrw_dirhist_1='/home/kriska/Downloads/sway/.config/sway/config.d'
