@@ -5,6 +5,7 @@ fish_add_path -m $HOME/.local/bin
 set fish_greeting
 set TERM "xterm-256color"
 export EDITOR=vim
+export PAGER="most"
 
 # aliases 
 alias ariad="aria2c -d Downloads"
