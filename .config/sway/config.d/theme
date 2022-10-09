@@ -52,3 +52,7 @@ bar {
     binding_mode       #FF5555 #FF5555 #F8F8F2
   }
 }
+
+#bar {
+#    swaybar_command waybar
+#}
