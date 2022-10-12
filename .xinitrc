@@ -55,6 +55,6 @@ while true; do
 done &
 
 # Autostart section
-xrandr --output eDP1 --mode 1366x768 --pos 1920x0 --rotate normal --output HDMI2 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+xrandr --output eDP1 --mode 1366x768 --pos 1920x0 --output HDMI2 --primary --mode 1920x1080 --pos 0x0
 xbanish &
 exec dwm
