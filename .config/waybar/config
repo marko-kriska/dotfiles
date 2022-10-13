@@ -62,7 +62,7 @@
 
 
     "network": {
-        "interface": "wlp4s0", 
+        "interface": "wlan0", 
         "format-wifi": "   WiFi-On",
         "format-disconnected": "睊   Disconnected",
         "interval": 60

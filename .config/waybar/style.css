@@ -5,7 +5,7 @@
 
 
 window#waybar { 
-    background-color: #6272a4; 
+    background-color: #ffb86c; 
     color: #ffffff;    
 }
 
@@ -42,7 +42,7 @@ window#waybar {
 
 #workspaces button.focused { 
 	padding: 0px 11px 0px 11px; 
-	background-color: #6272a4;
+	background-color: #ffb86c;
 	color: #ffffff;
 }
 
@@ -57,7 +57,7 @@ window#waybar {
 
 #window {
 	 color: #ffffff;
-	 background-color: #6272a4;
+	 background-color: #bd93f9;
      padding: 0px 10px 0px 10px;
 }
 
