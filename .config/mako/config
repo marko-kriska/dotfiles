@@ -1,5 +1,5 @@
 font pango:JetBrains Mono Nerd Font Medium 10
-default-timeout=10ms
+default-timeout=10
 
 background-color=#282a36
 text-color=#44475a
