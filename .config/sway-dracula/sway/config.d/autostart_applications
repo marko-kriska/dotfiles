@@ -1,5 +1,0 @@
-# Desktop notifications
-exec dunst
-
-# Clipman
-exec wl-paste -t text --watch clipman store --no-persist
