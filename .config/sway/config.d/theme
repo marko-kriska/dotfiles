@@ -9,13 +9,13 @@ gaps outer 0
 default_border pixel 1
 
 # Default Font
-font pango:JetBrains Mono Nerd Font Medium 10
+font pango:Fira Code Nerd Font Medium 10
 
 # Thin borders:
 smart_borders on
 
 # Set wallpaper:
-exec swaybg -i ~/.config/sway/sway.jpg
+# exec swaybg -i ~/.config/sway/sway.jpg
 
 # For opacity
 # set $opacity 0.9
@@ -26,12 +26,12 @@ for_window [shell="xdg_shell"] title_format "%title (%app_id)"
 for_window [shell="x_wayland"] title_format "%class - %title"
 
 # class                 border  bground text    indicator child_border
-client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
-client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
-client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
-client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
-client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
-client.background       #F8F8F2
+#client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+#client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+#client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+#client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+#client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+#client.background       #F8F8F2
 
 # Status Bar:
 #
@@ -44,18 +44,18 @@ bar {
     # The default just shows the current date and time.
     status_command while date +'%F %R'; do sleep 1; done
 
-    colors {
-    background #282A36
-    statusline #F8F8F2
-    separator  #44475A
-
-    focused_workspace  #44475A #44475A #F8F8F2
-    active_workspace   #282A36 #44475A #F8F8F2
-    inactive_workspace #282A36 #282A36 #BFBFBF
-    urgent_workspace   #FF5555 #FF5555 #F8F8F2
-    binding_mode       #FF5555 #FF5555 #F8F8F2
-  }
-}
+#    colors {
+#    background #282A36
+#    statusline #F8F8F2
+#    separator  #44475A
+#
+#    focused_workspace  #44475A #44475A #F8F8F2
+#    active_workspace   #282A36 #44475A #F8F8F2
+#    inactive_workspace #282A36 #282A36 #BFBFBF
+#    urgent_workspace   #FF5555 #FF5555 #F8F8F2
+#    binding_mode       #FF5555 #FF5555 #F8F8F2
+#  }
+#}
 
 # bar {
 #     swaybar_command waybar

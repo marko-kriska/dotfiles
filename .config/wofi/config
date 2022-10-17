@@ -1,7 +1,7 @@
 mode=drun,run
 run-always_parse_args=true
 term=alacritty
-allow_images=true
+#allow_images=true
 hide_scroll=true
 insensitive=true
 prompt=

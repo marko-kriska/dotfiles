@@ -3,9 +3,9 @@
 # daemonize
 indicator-caps-lock
 # datestr=%A
-image=$HOME/.config/sway/swaylock.png
+# image=$HOME/.config/sway/swaylock.png
 scaling=fill
-font=JetBrains Mono Nerd Font Medium
+font=Fira Code Nerd Font Medium
 font-size=20
 
 # Ring
