@@ -9,7 +9,7 @@ gaps outer 0
 default_border pixel 1
 
 # Default Font
-font pango:Fira Code Nerd Font Medium 10
+font pango:Terminus 10
 
 # Thin borders:
 smart_borders on
