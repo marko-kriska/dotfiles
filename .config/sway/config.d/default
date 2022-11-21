@@ -190,7 +190,6 @@ bindsym $mod+r mode "resize"
     bindsym $mod+Ctrl+m exec $term -e $HOME/.local/bin/pulsemixer
     bindsym $mod+Ctrl+n exec $term -e newsboat
     bindsym $mod+Ctrl+r exec $HOME/.local/bin/wofi-beats-linux
-    bindsym $mod+Ctrl+p exec $HOME/.local/bin/wofi-passmenu
 #
 # Screenshots
 #
