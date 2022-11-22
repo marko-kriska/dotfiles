@@ -8,6 +8,7 @@ prepopulate-query-feeds yes
 
 # display
 show-read-feeds no
+show-read-articles no
 feed-sort-order unreadarticlecount-asc
 text-width 80
 max-items 100
