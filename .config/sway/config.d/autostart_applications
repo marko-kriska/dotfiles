@@ -3,6 +3,3 @@ exec dunst
 
 # Clipman
 exec wl-paste -t text --watch clipman store --no-persist
-
-# Autotiling
-exec_always autotiling
