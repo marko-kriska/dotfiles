@@ -9,7 +9,7 @@ prepopulate-query-feeds yes
 # display
 show-read-feeds no
 show-read-articles no
-feed-sort-order unreadarticlecount-asc
+feed-sort-order firsttag 
 text-width 80
 max-items 100
 
