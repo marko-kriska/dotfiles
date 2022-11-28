@@ -5,7 +5,7 @@ indicator-caps-lock
 # datestr=%A
 image=$HOME/.config/sway/swaylock.jpg
 scaling=fill
-font=Fira Code Nerd Font Medium
+font=JetBrainsMono Nerd Font Medium
 font-size=16
 
 # Ring
