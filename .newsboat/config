@@ -27,4 +27,6 @@ bind-key k up article
 
 # misc
 confirm-exit no
-cleanup-on-quit no
+
+# theme
+include /usr/share/doc/newsboat/contrib/colorschemes/universal-color
