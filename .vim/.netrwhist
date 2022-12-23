@@ -1,9 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/kriska/.config/dunst'
+let g:netrw_dirhist_3='/home/kriska/.dwm'
+let g:netrw_dirhist_2='/home/kriska/.local/share/fonts'
+let g:netrw_dirhist_1='/home/kriska/.dwm'
+let g:netrw_dirhist_0='/home/kriska/.dotfiles/.config'
+let g:netrw_dirhist_9='/home/kriska/.config/swaylock'
+let g:netrw_dirhist_8='/home/kriska/.dwm'
 let g:netrw_dirhist_7='/home/kriska/.config/kitty'
 let g:netrw_dirhist_6='/etc/X11/xorg.conf.d'
 let g:netrw_dirhist_5='/home/kriska/.dotfiles/.config/waybar'
-let g:netrw_dirhist_4='/home/kriska/.local/bin'
-let g:netrw_dirhist_3='/home/kriska/.config/sway/config.d'
-let g:netrw_dirhist_2='/home/kriska/.config/fish'
-let g:netrw_dirhist_1='/etc/X11/xinit'

@@ -14,4 +14,4 @@ configuration{
     sidebar-mode: false;
 }
 
-@theme "~/.config/rofi/dwm.rasi"
+@theme "~/.config/rofi/dracula.rasi"
