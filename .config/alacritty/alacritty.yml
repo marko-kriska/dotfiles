@@ -455,4 +455,4 @@ key_bindings:
     }
 
 import:
-  - ~/.config/alacritty/dracula.yml
+  - ~/.config/alacritty/gruvbox_dark.yaml
