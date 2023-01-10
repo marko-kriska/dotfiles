@@ -1,7 +1,7 @@
 {"_id":"autoplayPlaylists","value":false}
 {"_id":"autoplayVideos","value":false}
 {"_id":"barColor","value":false}
-{"_id":"baseTheme","value":"system"}
+{"_id":"baseTheme","value":"dark"}
 {"_id":"bounds","value":{"x":1,"y":1,"width":1054,"height":1078,"maximized":false,"fullScreen":false}}
 {"_id":"defaultProfile","value":"FWb4ioI9pd92OlUR"}
 {"_id":"defaultQuality","value":"1080"}
@@ -10,4 +10,3 @@
 {"_id":"mainColor","value":"Red"}
 {"_id":"playNextVideo","value":false}
 {"_id":"secColor","value":"Blue"}
-{"_id":"bounds","value":{"x":1,"y":1,"width":1054,"height":1078,"maximized":false,"fullScreen":false}}
