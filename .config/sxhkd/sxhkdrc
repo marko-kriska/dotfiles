@@ -1,11 +1,8 @@
 alt + w
 	firefox
 
-alt + Return
-	alacritty
-
 alt + shift + Return
-	nautilus
+	alacritty
 
 alt + p 
 	rofi -show drun
@@ -21,6 +18,9 @@ alt + ctrl + r
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
+
+alt + ctrl + n
+	alacritty --class newsboat,newsboat -e newsboat 
 
 alt + q
 	bspc node -c
@@ -41,10 +41,10 @@ alt + Tab
 	bspc desktop -f last.local
 
 alt + F1
-	monitor_1.sh
+	screen_1.sh
 
 alt + F2
-	monitor_2.sh 
+	screen_2.sh 
 
 alt + period 
 	bspc monitor -f next
