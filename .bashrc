@@ -57,13 +57,11 @@ alias ariad="aria2c -d Downloads"
 alias ariam="aria2c -d Music"
 alias ariav="aria2c -d Videos"
 alias anime="ani-cli -q best"
-alias ls="exa -al --color=always --group-directories-first"
-# alias ls="exa -al --color=always --icons --group-directories-first"
+alias ls="exa -al --color=always --icons --group-directories-first"
 alias dnfup="sudo dnf upgrade"
 alias dnfin="sudo dnf install"
 alias dnfrm="sudo dnf remove"
 alias dnfsr="sudo dnf search"
-# alias image="kitty +kitten icat"	# needs imagemagick
 alias image="sxiv"
 
 # get fastest mirrors
