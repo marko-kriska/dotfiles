@@ -11,9 +11,6 @@ alt + Print
 	scrot -s -e 'mv $f ~/Downloads'
 
 alt + ctrl + p
-	rofi-pass	
-
-alt + ctrl + r
 	rofi-beats-linux
 
 alt + ctrl + m
