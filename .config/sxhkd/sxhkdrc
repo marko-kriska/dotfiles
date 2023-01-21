@@ -10,8 +10,11 @@ alt + p
 alt + Print
 	scrot -s -e 'mv $f ~/Downloads'
 
-alt + ctrl + p
+alt + ctrl + r
 	rofi-beats-linux
+
+alt + ctrl + p
+	passmenu	
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
@@ -81,4 +84,4 @@ XF86AudioMicMute
 XF86MonBrightnessUp
 	brightnessctl set +10
 XF86MonBrightnessDown
-	brightnessctl set 10-
+	rightnessctl set 10-
