@@ -14,7 +14,7 @@ alt + ctrl + r
 	rofi-beats-linux
 
 alt + ctrl + p
-	passmenu	
+	rofi-pass	
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
