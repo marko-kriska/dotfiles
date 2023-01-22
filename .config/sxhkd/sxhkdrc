@@ -14,7 +14,7 @@ alt + ctrl + r
 	dm-radio	
 
 alt + ctrl + p
-	rofi-pass	
+	passmenu	
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
