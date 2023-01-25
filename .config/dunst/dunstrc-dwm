@@ -453,18 +453,18 @@
 #
 # vim: ft=cfg
 [global]
-frame_color = "#0066ff"
+frame_color = "#005577"
 separator_color= frame
 
 [urgency_low]
-background = "#282828"
-foreground = "#cccccc"
+background = "#222222"
+foreground = "#bbbbbb"
 
 [urgency_normal]
-background = "#282828"
-foreground = "#cccccc"
+background = "#222222"
+foreground = "#bbbbbb"
 
 [urgency_critical]
-background = "#282828"
-foreground = "#cccccc"
+background = "#222222"
+foreground = "#bbbbbb"
 frame_color = "#ff0000"
