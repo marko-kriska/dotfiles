@@ -6,7 +6,7 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
-font_family      JetBrains Mono Regular Nerd Font Complete
+font_family      JetBrains Mono
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -830,7 +830,7 @@ visual_window_select_characters 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
 #: insensitive, from the set [0-9A-Z]. Specify your preference as a
 #: string of characters.
 
-confirm_os_window_close 0 
+confirm_os_window_close -1
 
 #: Ask for confirmation when closing an OS window or a tab with at
 #: least this number of kitty windows in it by window manager (e.g.
@@ -2234,6 +2234,6 @@ map shift+cmd+/ open_url https://sw.kovidgoyal.net/kitty/
 
 
 # BEGIN_KITTY_THEME
-# Gruvbox Dark
+# Default
 include current-theme.conf
 # END_KITTY_THEME

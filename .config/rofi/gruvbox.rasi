@@ -4,9 +4,9 @@
     font: "JetBrainsMono Nerd Font 12";
     foreground: #ebdbb2;
     background-color: #282828;
-    active-background: #458588;
-    urgent-background: #458588;
-    urgent-foreground: #458588;
+    active-background: #076678;
+    urgent-background: #076678;
+    urgent-foreground: #076678;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;

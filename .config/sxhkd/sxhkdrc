@@ -2,7 +2,7 @@ alt + w
 	firefox
 
 alt + shift + Return
-	kitty	
+	alacritty	
 
 alt + p 
 	rofi -show drun
@@ -17,10 +17,10 @@ alt + ctrl + p
 	passmenu	
 
 alt + ctrl + m
-	kitty --class pulsemixer,pulsemixer -e pulsemixer
+	alacritty --class pulsemixer,pulsemixer -e pulsemixer
 
 alt + ctrl + n
-	kitty --class newsboat,newsboat -e newsboat 
+	alacritty --class newsboat,newsboat -e newsboat 
 
 alt + q
 	bspc node -c
