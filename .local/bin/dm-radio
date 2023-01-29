@@ -19,11 +19,11 @@ radio_stations[Nirvana Shatakam]="https://youtu.be/Ed_RsCvuPBQ"
 radio_stations[Radio Sljeme]="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
 
 start_radio() {
-  notify-send "Playing station:" "$1. 🎶"
+  notify-send "Playing station:" "$1. ☕️ 🎶"
 }
 
 end_radio() {
-  notify-send "You have quit dm-radio. 🎶"
+  notify-send "You have quit dm-radio. ☕️ 🎶"
 }
 
 main() {
