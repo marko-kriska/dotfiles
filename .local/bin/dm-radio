@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+DMENU="dmenu -i -l 20 -p"
+ARGS="--title=radio-mpv --no-video"
+
+menu() {
+  printf '%s\n' "Quit"
+  printf '%s\n' "${!radio_stations[@]}" | sort
+}
+
+declare -A radio_stations
+radio_stations[Lofi Girl]="https://youtu.be/jfKfPfyJRdk"
+radio_stations[Chillhop]="https://youtu.be/7NOSDKb0HlU"
+radio_stations[Box Lofi]="https://youtu.be/WDXPJWIgX-o"
+radio_stations[The Bootleg Boy]="https://youtu.be/WIU-A596KKU"
+radio_stations[Radio Spinner]="https://live.radiospinner.com/lofi-hip-hop-64"
+radio_stations[Dreamhop]="https://youtu.be/wkhLHTmS_GI"
+radio_stations[Nirvana Shatakam]="https://youtu.be/Ed_RsCvuPBQ"
+radio_stations[Radio Sljeme]="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
+
+start_radio() {
+  notify-send "Starting dm-radio" "Playing station: $1. 🎶"
+}
+
+end_radio() {
+  notify-send "Stopping dm-radio" "You have quit dm-radio. 🎶"
+}
+
+main() {
+  choice=$(menu | ${DMENU} 'Choose radio station:' "$@") || exit 1
+
+  case $choice in
+    Quit)
+      end_radio ;
+      pkill -f http
+      exit
+      ;;
+    *)
+      pkill -f http || echo "mpv not running."
+      start_radio "$choice" ;
+      mpv $ARGS "${radio_stations["${choice}"]}"
+      return
+      ;;
+  esac
+}
+
+[[ "${BASH_SOURCE[0]}" == "${0}" ]] && main "$@"

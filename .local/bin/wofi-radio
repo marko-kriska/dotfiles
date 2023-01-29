@@ -1,0 +1,90 @@
+#!/bin/sh
+
+# add more args here according to preference
+ARGS="--no-video"
+
+notification(){
+# change the icon to whatever you want. Make sure your notification server 
+# supports it and already configured.
+
+# Now it will receive argument so the user can rename the radio title
+# to whatever they want
+
+	notify-send "Playing now: " "$@" --icon=media-tape
+}
+
+# number of the stream as per the $choice variable
+# name of the stream
+# additional tag to filter similar type of streams
+
+menu(){
+	printf "1. Lofi Girl\n"
+	printf "2. Chillhop\n"
+	printf "3. Box Lofi\n"
+	printf "4. The Bootleg Boy\n"
+	printf "5. Radio Spinner\n"
+	printf "6. Dreamhop\n"
+	printf "7. Nirvana Shatakam\n"
+	printf "8. Radio Sljeme\n"
+}
+
+main() {
+	choice=$(menu | wofi -dmenu | cut -d. -f1)
+
+	case $choice in
+		1)
+			notification "Lofi Girl ☕️ 🎶";
+            URL="https://youtu.be/jfKfPfyJRdk"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		2)
+			notification "Chillhop ☕️ 🎶";
+            URL="https://youtu.be/7NOSDKb0HlU"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		3)
+			notification "Anime Lofi nostalgic ☕️ 🎶";
+            URL="https://youtu.be/WDXPJWIgX-o"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		4)
+			notification "The Bootleg Boy ☕️ 🎶";
+            URL="https://youtu.be/WIU-A596KKU"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		5)
+			notification "Radio Spinner ☕️ 🎶";
+            URL="https://live.radiospinner.com/lofi-hip-hop-64"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		6)
+			notification "Dreamhop ☕️ 🎶";
+            URL="https://youtu.be/wkhLHTmS_GI"
+	    ADDITIONAL_ARGS="--volume=60"
+			break
+			;;
+		7)
+			notification "Nirvana Shatakam";
+            URL="https://youtu.be/Ed_RsCvuPBQ"
+	    ADDITIONAL_ARGS="--loop"
+			break
+			;;
+		8)
+			notification "Radio Sljeme";
+            URL="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
+	    ADDITIONAL_ARGS="--loop"
+			break
+			;;
+		
+		esac
+    # run mpv with args and selected url
+    # added title arg to make sure the pkill command kills only this instance of mpv
+    mpv $ARGS --title="radio-mpv" $URL $ADDITIONAL_ARGS
+}
+
+pkill -f radio-mpv || main
