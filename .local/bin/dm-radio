@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 
 DMENU="dmenu -i -l 20 -p"
 ARGS="--title=radio-mpv --no-video --volume=60"
@@ -15,7 +15,6 @@ radio_stations[Box Lofi]="https://youtu.be/WDXPJWIgX-o"
 radio_stations[The Bootleg Boy]="https://youtu.be/WIU-A596KKU"
 radio_stations[Radio Spinner]="https://live.radiospinner.com/lofi-hip-hop-64"
 radio_stations[Dreamhop]="https://youtu.be/wkhLHTmS_GI"
-radio_stations[Nirvana Shatakam]="https://youtu.be/Ed_RsCvuPBQ"
 radio_stations[Radio Sljeme]="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
 
 start_radio() {

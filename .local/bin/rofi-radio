@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # add more args here according to preference
-ARGS="--no-video --volume=60"
+ARGS="--no-video"
 
 notification(){
 # change the icon to whatever you want. Make sure your notification server 
@@ -34,36 +34,43 @@ main() {
 		1)
 			notification "Lofi Girl ☕️ 🎶";
             URL="https://youtu.be/jfKfPfyJRdk"
+			ADDITIONAL_ARGS="--volume=60"
 	    	break
 			;;
 		2)
 			notification "Chillhop ☕️ 🎶";
             URL="https://youtu.be/7NOSDKb0HlU"
+			ADDITIONAL_ARGS="--volume=60"
 	    	break
 			;;
 		3)
 			notification "Anime Lofi nostalgic ☕️ 🎶";
             URL="https://youtu.be/WDXPJWIgX-o"
+			ADDITIONAL_ARGS="--volume=60"
 	    	break
 			;;
 		4)
 			notification "The Bootleg Boy ☕️ 🎶";
             URL="https://youtu.be/WIU-A596KKU"
+			ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
 		5)
 			notification "Radio Spinner ☕️ 🎶";
             URL="https://live.radiospinner.com/lofi-hip-hop-64"
+			ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
 		6)
 			notification "Dreamhop ☕️ 🎶";
             URL="https://youtu.be/wkhLHTmS_GI"
+			ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
 		7)
 			notification "Radio Sljeme";
             URL="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
+			ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
 		
