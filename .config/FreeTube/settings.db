@@ -2,7 +2,7 @@
 {"_id":"autoplayVideos","value":false}
 {"_id":"barColor","value":false}
 {"_id":"baseTheme","value":"dark"}
-{"_id":"bounds","value":{"x":1057,"y":1,"width":862,"height":1078,"maximized":false,"fullScreen":false}}
+{"_id":"bounds","value":{"x":1,"y":1,"width":958,"height":1078,"maximized":false,"fullScreen":false}}
 {"_id":"defaultProfile","value":"FWb4ioI9pd92OlUR"}
 {"_id":"defaultQuality","value":"1080"}
 {"_id":"expandSideBar","value":false}
@@ -10,3 +10,4 @@
 {"_id":"mainColor","value":"Red"}
 {"_id":"playNextVideo","value":false}
 {"_id":"secColor","value":"Blue"}
+{"_id":"bounds","value":{"x":1,"y":1,"width":1918,"height":1078,"maximized":false,"fullScreen":false}}
