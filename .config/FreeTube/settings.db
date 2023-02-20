@@ -10,3 +10,4 @@
 {"_id":"mainColor","value":"Red"}
 {"_id":"playNextVideo","value":false}
 {"_id":"secColor","value":"Blue"}
+{"_id":"bounds","value":{"x":1,"y":1,"width":1918,"height":1078,"maximized":false,"fullScreen":false}}
