@@ -2,11 +2,11 @@
 
 * {
     font: "IBM Plex Mono Text 12";
-    foreground: #fbf1c7;
+    foreground: #eeeeee;
     background-color: #282828;
-    active-background: #076678;
-    urgent-background: #076678;
-    urgent-foreground: #076678;
+    active-background: #005577;
+    urgent-background: #005577;
+    urgent-foreground: #005577;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
