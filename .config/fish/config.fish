@@ -3,6 +3,7 @@ set fish_greeting
 set TERM "xterm-256color"
 export EDITOR=vim
 export PAGER="most"
+fish_config theme choose "Dracula Official"
 
 ### AUTOSTART 
 starship init fish | source
