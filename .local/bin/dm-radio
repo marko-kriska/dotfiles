@@ -10,7 +10,7 @@ menu() {
 
 declare -A radio_stations
 radio_stations[Lofi Hip Hop]="https://youtu.be/jfKfPfyJRdk"
-radio_stations[Synthwave Radio]="https://youtu.be/jfKfPfyJRdk"
+radio_stations[Synthwave Radio]="https://youtu.be/MVPTGNGiI-4?"
 radio_stations[Chillhop]="https://youtu.be/7NOSDKb0HlU"
 radio_stations[The Bootleg Boy]="https://youtu.be/WIU-A596KKU"
 radio_stations[Radio Spinner]="https://live.radiospinner.com/lofi-hip-hop-64"
