@@ -18,8 +18,8 @@ smart_borders on
 # exec swaybg -i ~/.config/sway/sway.jpg
 
 # For opacity
-# set $opacity 0.9
-# for_window [app_id="Alacritty"] opacity $opacity
+set $opacity 0.9
+for_window [app_id="Alacritty"] opacity $opacity
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
@@ -59,4 +59,5 @@ bar {
 
 # bar {
 #     swaybar_command waybar
-# }
+#
+#}
