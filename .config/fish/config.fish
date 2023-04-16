@@ -3,7 +3,7 @@ set fish_greeting
 set TERM "xterm-256color"
 export EDITOR=vim
 export PAGER="most"
-# fish_config theme choose "Dracula Official"
+#fish_config theme choose "Dracula Official"
 
 ### AUTOSTART 
 starship init fish | source
@@ -17,6 +17,7 @@ alias ariad="aria2c -d Downloads"
 alias ariam="aria2c -d Music"
 alias ariav="aria2c -d Videos"
 alias anime="ani-cli -q best"
+alias yta="yt-dlp --extract-audio --audio-format mp3 --audio-quality 0"
 alias ls="exa -al --color=always --group-directories-first"
 alias dnfup="sudo dnf upgrade"
 alias dnfin="sudo dnf install"
