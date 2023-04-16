@@ -10,8 +10,11 @@ alt + p
 alt + Print
 	scrot -s -e 'mv $f ~/Downloads'
 
+alt + ctrl + p
+	rofi-pass
+
 alt + ctrl + r
-	rofi-radio	
+	rofi-radio
 
 alt + ctrl + m
 	alacritty --class pulsemixer,pulsemixer -e pulsemixer
