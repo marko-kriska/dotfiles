@@ -1,7 +1,7 @@
 /*My DWM theme based on the Purple official rofi theme*/
 
 * {
-    font: "IBM Plex Mono Text 12";
+    font: "JetBrains Mono 12";
     foreground: #eeeeee;
     background-color: #282828;
     active-background: #005577;
