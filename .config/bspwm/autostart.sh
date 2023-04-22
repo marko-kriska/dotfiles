@@ -3,3 +3,4 @@ xrandr --output HDMI2 --set "Broadcast RGB" "Full"
 xsetroot -cursor_name left_ptr
 xbanish &
 sxhkd &
+feh --bg-fill ~/Pictures/cityscape.jpg
