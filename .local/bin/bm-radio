@@ -22,7 +22,7 @@ start_radio() {
 }
 
 end_radio() {
-  notify-send "You have quit dm-radio. ☕️ 🎶"
+  notify-send "You have quit bm-radio. ☕️ 🎶"
 }
 
 main() {
