@@ -13,7 +13,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi | xargs swaymsg exec --
+set $menu bemenu-run --fn "IntelOne Mono 10" | xargs swaymsg exec --
 
 ### Idle configuration
 exec swayidle -w\
@@ -188,7 +188,7 @@ bindsym $mod+r mode "resize"
     bindsym $mod+w exec firefox
     bindsym $mod+Ctrl+m exec $term -e $HOME/.local/bin/pulsemixer
     bindsym $mod+Ctrl+n exec $term -e newsboat
-    bindsym $mod+Ctrl+r exec $HOME/.local/bin/wofi-radio
+    bindsym $mod+Ctrl+r exec $HOME/.local/bin/bm-radio
     bindsym $mod+Ctrl+p exec $HOME/.local/bin/wofi-pass
 #
 # Screenshots

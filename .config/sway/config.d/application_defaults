@@ -3,8 +3,8 @@ assign [app_id="firefox"] 2
 for_window [app_id="firefox"] focus
 assign [class="firefox"] 2
 for_window [class="firefox"] focus
-assign [class="Steam"] 3
-for_window [class="Steam"] focus
+assign [class="steam"] 3
+for_window [class="steam"] focus
 for_window [app_id="transmission-gtk"] floating enable
 for_window [title="pulsemixer"] floating enable, border pixel 1, sticky enable, resize set width 40 ppt height 30 ppt
 
