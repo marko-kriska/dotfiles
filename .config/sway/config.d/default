@@ -8,12 +8,12 @@ set $up k
 set $right l
 
 # Your preferred terminal emulators
-set $term alacritty
+set $term foot 
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu bemenu-run --fn "IntelOne Mono 10" | xargs swaymsg exec --
+set $menu bemenu-run --fn "JetBrains Mono 10" | xargs swaymsg exec --
 
 ### Idle configuration
 exec swayidle -w\
