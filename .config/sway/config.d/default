@@ -13,7 +13,7 @@ set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu bemenu-run --fn "JetBrains Mono 10" | xargs swaymsg exec --
+ set $menu bemenu-run --fn "Terminus 10" | xargs swaymsg exec --
 
 ### Idle configuration
 exec swayidle -w\
@@ -194,3 +194,7 @@ bindsym $mod+r mode "resize"
 # Screenshots
 #
     bindsym print exec grimshot save area
+#
+# Hide Mouse Cursor
+#
+    seat * hide_cursor when-typing enable
