@@ -1,7 +1,7 @@
 
 # About My System <a name="About"></a>
 
-![2023-02-23-001348_1919x1080_scrot](https://user-images.githubusercontent.com/95656575/220785173-1c1ac16b-4d93-42d6-9aef-98bd74007c55.png)
+![2023-07-09-131909_1919x1080_scrot](https://github.com/marko-kriska/dotfiles/assets/95656575/1b953bfd-0837-417b-8a16-de16991fbb8d)
 
 # What I use
 
