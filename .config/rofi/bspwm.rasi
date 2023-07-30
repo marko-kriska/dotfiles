@@ -1,7 +1,7 @@
 /*My BSPWM theme based on the Purple official rofi theme*/
 
 * {
-    font: "JetBrains Mono 12";
+    font: "IntelOne Mono 12";
     foreground: #fbf1c7;
     background-color: #282828;
     active-background: #005577;
