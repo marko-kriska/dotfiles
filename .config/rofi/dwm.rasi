@@ -1,7 +1,7 @@
 /*My DWM theme based on the Purple official rofi theme*/
 
 * {
-    font: "IntelOne Mono 12";
+    font: "Fira Code 12";
     foreground: #eeeeee;
     background-color: #282828;
     active-background: #005577;
