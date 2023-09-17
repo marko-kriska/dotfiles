@@ -1,7 +1,7 @@
 /*My DWM theme based on the Purple official rofi theme*/
 
 * {
-    font: "MesloLGL Nerd Font 12";
+    font: "JetBrains Mono 12";
     foreground: #eeeeee;
     background-color: #2E3440;
     active-background: #434C5E;
