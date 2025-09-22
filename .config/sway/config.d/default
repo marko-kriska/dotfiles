@@ -13,7 +13,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
- set $menu bemenu-run --fn "Fira Code 10" | xargs swaymsg exec --
+set $menu bemenu-run --fb "#1e1e2e" --ff "#cdd6f4" --nb "#1e1e2e" --nf "#cdd6f4" --tb "#1e1e2e" --hb "#1e1e2e" --tf "#f38ba8" --hf "#f9e2af" --af "#cdd6f4" --ab "#1e1e2e" -H 24 --fn "CaskaydiaMono Nerd Font 12" | xargs swaymsg exec --
 
 ### Idle configuration
 exec swayidle -w\
@@ -186,10 +186,10 @@ bindsym $mod+r mode "resize"
 # App shortcuts
 #
     bindsym $mod+w exec firefox
-    bindsym $mod+Ctrl+m exec $term -e $HOME/.local/bin/pulsemixer
+    bindsym $mod+Ctrl+m exec $term -e pulsemixer
     bindsym $mod+Ctrl+n exec $term -e newsboat
-    bindsym $mod+Ctrl+r exec $HOME/.local/bin/bm-radio
-    bindsym $mod+Ctrl+p exec $HOME/.local/bin/wofi-pass
+    bindsym $mod+Ctrl+r exec $HOME/.local/share/bm-radio
+    bindsym $mod+Ctrl+p exec $HOME/.local/share/wofi-pass
 #
 # Screenshots
 #

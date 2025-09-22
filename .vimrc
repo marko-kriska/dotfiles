@@ -169,5 +169,11 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 set termguicolors 
-colo gruvbox
-set bg=dark
+colo catppuccin_mocha 
+"set bg=dark
+
+call plug#begin()
+
+" List your plugins here
+
+call plug#end()

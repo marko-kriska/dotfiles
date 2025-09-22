@@ -29,4 +29,5 @@ bind-key k up article
 confirm-exit no
 
 # theme
-include /usr/share/doc/newsboat/contrib/colorschemes/universal-color
+#include /usr/share/doc/newsboat/contrib/colorschemes/inkpot
+include ~/.newsboat/dark

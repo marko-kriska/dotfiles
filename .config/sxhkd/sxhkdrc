@@ -1,7 +1,7 @@
 alt + w
 	firefox
 
-alt + shift + Return
+alt + Return
 	alacritty	
 
 alt + p 
@@ -17,10 +17,10 @@ alt + ctrl + r
 	rofi-radio
 
 alt + ctrl + m
-	alacritty --class pulsemixer,pulsemixer -e pulsemixer
+	kitty --class pulsemixer,pulsemixer -e pulsemixer
 
 alt + ctrl + n
-	alacritty --class newsboat,newsboat -e newsboat 
+	kitty --class newsboat,newsboat -e newsboat 
 
 alt + q
 	bspc node -c
@@ -92,6 +92,6 @@ XF86AudioMicMute
 # 	pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 XF86MonBrightnessUp
-	brightnessctl set +10
+	brightnessctl set +10%
 XF86MonBrightnessDown
-	brightnessctl set 10-
+	brightnessctl set 10-%
