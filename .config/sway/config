@@ -59,7 +59,6 @@
 #
 # App shortcuts
 	bindsym $mod+w exec firefox
-	bindsym $mod+Shift+Return exec nautilus 
 	bindsym $mod+Ctrl+m exec $term -e pulsemixer
 	bindsym $mod+Ctrl+r exec $term -e lowfi 
 	bindsym $mod+Ctrl+n exec $term -e newsboat
