@@ -1,4 +1,9 @@
 # Config for sway
+
+### Autostart
+#
+exec mako
+include catppuccin-mocha
 #
 ### Variables
 #
@@ -219,8 +224,6 @@
 
 ### Theming
 #
-include catppuccin-mocha
-#
 # Set inner/outer gaps
 	gaps inner 0
 	gaps outer 0
@@ -229,7 +232,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:Cascadia Code 12
+	font pango:MesloLGLDZ Nerd Font 12
 #
 # Thin borders:
 	smart_borders on
