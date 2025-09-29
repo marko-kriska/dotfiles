@@ -24,7 +24,6 @@ menu(){
 	printf "4. The Bootleg Boy\n"
 	printf "5. Radio Spinner\n"
 	printf "6. Dreamhop\n"
-	printf "7. Radio Sljeme\n"
 }
 
 main() {
@@ -67,13 +66,6 @@ main() {
 			ADDITIONAL_ARGS="--volume=60"
 			break
 			;;
-		7)
-			notification "Radio Sljeme";
-            URL="https://21223.live.streamtheworld.com/SLJEMEAAC.aac"
-			ADDITIONAL_ARGS="--volume=60"
-			break
-			;;
-		
 		esac
     # run mpv with args and selected url
     # added title arg to make sure the pkill command kills only this instance of mpv
