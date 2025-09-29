@@ -89,7 +89,7 @@ import = ["/home/kriska/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
 TERM = "xterm-256color"
 
 [font]
-size = 13.0
+size = 14.0
 
 [font.bold]
 family = "MesloLGLDZ Nerd Font"
