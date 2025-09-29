@@ -138,6 +138,8 @@ include catppuccin-mocha
 # Assign workspaces
 	assign [app_id="firefox"] 2
 	for_window [app_id="firefox"] focus
+	for_window [app_id="firefox"] inhibit_idle fullscreen
+	for_window [app_id="mpv"] inhibit_idle fullscreen
 #
 # Layout stuff:
 #
@@ -232,7 +234,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:MesloLGLDZ Nerd Font 12
+	font pango:Cascadia Code 12
 #
 # Thin borders:
 	smart_borders on
