@@ -3,12 +3,12 @@
 ### Autostart
 #
 exec mako
-include catppuccin-mocha
+include catppuccin-macchiato
 #
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
-	set $mod Mod4
+	set $mod Mod1
 #
 # Home row direction keys, like vim
 	set $left h
@@ -60,7 +60,7 @@ include catppuccin-mocha
 	bindsym $mod+q kill
 #
 # Start your launcher
-	bindsym $mod+d exec $menu
+	bindsym $mod+p exec $menu
 #
 # App shortcuts
 	bindsym $mod+w exec firefox
@@ -234,7 +234,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:Cascadia Code 12
+	font pango:FiraCode Nerd Font 12
 #
 # Thin borders:
 	smart_borders on

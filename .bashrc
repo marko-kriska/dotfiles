@@ -24,9 +24,6 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Aliases
-alias ls="eza -al --color=always --group-directories-first"
-
 eval "$(starship init bash)"
 
 . "$HOME/.atuin/bin/env"

@@ -169,7 +169,7 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 set termguicolors 
-colo catppuccin_mocha 
+colo catppuccin_macchiato
 "set bg=dark
 
 call plug#begin()
