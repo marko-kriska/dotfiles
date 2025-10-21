@@ -20,7 +20,7 @@ include catppuccin-macchiato
 	set $term alacritty
 #
 # Your preferred application launcher
-	set $menu rofi -show drun
+	set $menu fuzzel 
 #
 # Hide Mouse Cursor
 	seat * hide_cursor when-typing enable
