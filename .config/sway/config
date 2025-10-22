@@ -3,7 +3,7 @@
 ### Autostart
 #
 exec mako
-include catppuccin-macchiato
+include catppuccin-mocha
 #
 ### Variables
 #
