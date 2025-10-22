@@ -63,7 +63,7 @@ include catppuccin-mocha
 	bindsym $mod+p exec $menu
 #
 # App shortcuts
-	bindsym $mod+w exec firefox
+	bindsym $mod+w exec librewolf
 	bindsym $mod+Ctrl+m exec $term -e pulsemixer
 	bindsym $mod+Ctrl+r exec $term -e lowfi 
 	bindsym $mod+Ctrl+n exec $term -e newsboat
@@ -137,7 +137,9 @@ include catppuccin-mocha
 #
 # Assign workspaces
 	assign [app_id="firefox"] 2
+	assign [app_id="librewolf"] 2
 	for_window [app_id="firefox"] focus
+	for_window [app_id="librewolf"] focus
 	for_window [app_id="firefox"] inhibit_idle fullscreen
 	for_window [app_id="mpv"] inhibit_idle fullscreen
 #
