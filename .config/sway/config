@@ -63,7 +63,7 @@ include catppuccin-mocha
 	bindsym $mod+p exec $menu
 #
 # App shortcuts
-	bindsym $mod+w exec librewolf
+	bindsym $mod+w exec librewolf 
 	bindsym $mod+Ctrl+m exec $term -e pulsemixer
 	bindsym $mod+Ctrl+r exec $term -e lowfi 
 	bindsym $mod+Ctrl+n exec $term -e newsboat
@@ -236,7 +236,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:JetBrainsMono Nerd Font 12
+	font pango:IBM Plex Mono 12
 #
 # Thin borders:
 	smart_borders on
