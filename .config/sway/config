@@ -236,7 +236,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:Fira Code 12
+	font pango:FiraCode Nerd Font 12
 #
 # Thin borders:
 	smart_borders on
