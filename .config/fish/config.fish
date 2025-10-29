@@ -13,3 +13,6 @@ fish_add_path -m $HOME/.local/bin
 
 ### EZA 
 alias ls="eza -al --color=always --group-directories-first"
+
+### THEME
+fish_config theme choose "Dracula Official"
