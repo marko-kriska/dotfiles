@@ -25,9 +25,8 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-# font-family = IBM Plex Mono
-font-size = 14
-#window-padding-x = 2
+# font-family = Fira Code
+# window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
@@ -48,6 +47,6 @@ font-size = 14
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
-theme = Dracula 
+theme = Dracula
 fullscreen = true
-command = /usr/bin/fish
+command = fish
