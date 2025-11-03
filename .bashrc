@@ -24,9 +24,21 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-eval "$(starship init bash)"
+# path
+#
+export PATH=$PATH:~/.cargo/bin/
 
+# atuin
+#
 . "$HOME/.atuin/bin/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
+
+# starship 
+#
+eval "$(starship init bash)"
+
+# eza
+#
+alias ls="eza -al --color=always --group-directories-first"
