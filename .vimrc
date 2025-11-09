@@ -169,7 +169,8 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 set termguicolors 
-"colo catppuccin_mocha
+"colo catppuccin_machiatto
+"set background=dark
 
 " vim-plug
 
