@@ -83,7 +83,7 @@ mode = "~Alt"
 mods = "Shift"
 
 [general]
-import = ["/home/kriska/.config/alacritty/themes/catppuccin_macchiato.toml"]
+import = ["/home/kriska/.config/alacritty/themes/dracula.toml"]
 
 [env]
 TERM = "xterm-256color"
