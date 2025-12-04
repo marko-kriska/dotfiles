@@ -169,7 +169,7 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 set termguicolors 
-"colo catppuccin_macchiato
+"colo catppuccin_mocha
 "set background=dark
 
 " vim-plug
@@ -178,8 +178,8 @@ call plug#begin()
 
 " List your plugins here
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tomasiser/vim-code-dark'
 
 call plug#end()
 
-"
-colorscheme dracula
+colorscheme codedark
