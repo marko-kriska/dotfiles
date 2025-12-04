@@ -29,10 +29,12 @@ bind-key k up article
 confirm-exit no
 
 ### THEME
-include /usr/share/doc/newsboat/contrib/colorschemes/gruvbox
+
+# Gruvbox Dark
+#include /usr/share/doc/newsboat/contrib/colorschemes/gruvbox
 
 # Catppucin Mocha
-#include ~/.newsboat/dark
+include ~/.newsboat/dark
 
 ## Dark theme based on Dracula color scheme for newsboat.
 ##

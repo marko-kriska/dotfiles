@@ -169,7 +169,7 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 set termguicolors 
-"colo gruvbox
+colo catppuccin_macchiato
 "set background=dark
 
 " vim-plug
@@ -181,4 +181,5 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
-colorscheme dracula
+"
+"olorscheme dracula
