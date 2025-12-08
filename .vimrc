@@ -178,8 +178,7 @@ call plug#begin()
 
 " List your plugins here
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'tomasiser/vim-code-dark'
 
 call plug#end()
 
-colorscheme codedark
+colorscheme dracula
