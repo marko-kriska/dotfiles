@@ -83,28 +83,28 @@ mode = "~Alt"
 mods = "Shift"
 
 [general]
-import = ["/home/kriska/.config/alacritty/themes/dracula.toml"]
+import = ["/home/kriska/.config/alacritty/themes/gruvbox_dark.toml"]
 
 [env]
 TERM = "xterm-256color"
 
 [font]
-size = 13.0
+size = 12.0
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "IBM Plex Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "IBM Plex Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "IBM Plex Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "IBM Plex Mono"
 style = "Normal"
 
 [font.offset]
