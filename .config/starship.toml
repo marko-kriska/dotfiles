@@ -1,5 +1,5 @@
 # Use the color palette
-#palette = "dracula"
+palette = "catppuccin_macchiato"
 
 # Define Dracula color palette
 [palettes.dracula]
