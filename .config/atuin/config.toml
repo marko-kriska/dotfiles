@@ -265,7 +265,7 @@ records = true
 ## Boolean, true or false. If unset, left up to the theme manager.
 # debug = true
 
-[theme]
+#[theme]
 name = "catppuccin-macchiato-lavender"
 
 [search]
