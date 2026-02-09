@@ -15,4 +15,4 @@ fish_add_path -m $HOME/.local/bin
 alias ls="eza -al --color=always --group-directories-first"
 
 ### THEME
-fish_config theme choose "Catppuccin Macchiato"
+#fish_config theme choose "Catppuccin Macchiato"
