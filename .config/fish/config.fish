@@ -11,8 +11,9 @@ atuin init fish | source
 ### PATH 
 fish_add_path -m $HOME/.local/bin
 
-### EZA 
+### ALIAS
 alias ls="eza -al --color=always --group-directories-first"
+alias mpv="flatpak run io.mpv.Mpv"
 
 ### THEME
-fish_config theme choose "Dracula Official"
+#fish_config theme choose "Catppuccin Macchiato"
