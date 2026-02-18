@@ -30,5 +30,5 @@ confirm-exit no
 
 ### THEME
 
-# Catppuccin Mocha
+# Gruvbox
 include ~/.newsboat/colorschemes/gruvbox
