@@ -25,20 +25,17 @@ fi
 unset rc
 
 # path
-#
 export PATH=$PATH:~/.cargo/bin/
 
+# starship
+eval "$(starship init bash)"
+
 # atuin
-#
 . "$HOME/.atuin/bin/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
-# starship 
-#
-eval "$(starship init bash)"
-
-# eza
-#
+# alias
 alias ls="eza -al --color=always --group-directories-first"
+alias mpv="flatpak run io.mpv.Mpv"
