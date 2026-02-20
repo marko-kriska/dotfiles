@@ -170,8 +170,8 @@ set cursorline
 set cursorcolumn
 syntax on
 set termguicolors
-"colo gruvbox
-"set background=dark
+colo gruvbox
+set background=dark
 
 call plug#begin()
 
@@ -180,4 +180,4 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
-colorscheme dracula
+"colorscheme dracula
