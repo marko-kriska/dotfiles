@@ -168,17 +168,7 @@ endif
 set number relativenumber
 set cursorline
 set cursorcolumn
-set termguicolors 
+syntax on
+set termguicolors
 colo gruvbox
 set background=dark
-
-" vim-plug
-
-call plug#begin()
-
-" List your plugins here
-Plug 'dracula/vim', { 'as': 'dracula' }
-
-call plug#end()
-
-"colorscheme dracula
