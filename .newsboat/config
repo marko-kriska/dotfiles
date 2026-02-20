@@ -30,5 +30,5 @@ confirm-exit no
 
 ### THEME
 
-# Gruvbox
-include ~/.newsboat/colorschemes/gruvbox
+# Dracula
+include ~/.newsboat/colorschemes/dracula
