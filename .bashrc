@@ -39,3 +39,4 @@ eval "$(atuin init bash)"
 # alias
 alias ls="eza -al --color=always --group-directories-first"
 alias mpv="flatpak run io.mpv.Mpv"
+alias aria2='toolbox run aria2c -d ~/Downloads'
