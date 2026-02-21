@@ -29,4 +29,4 @@ bind-key k up article
 confirm-exit no
 
 # theme
-include ~/.newsboat/colorschemes/gruvbox
+include ~/.newsboat/colorschemes/catppuccin_mocha

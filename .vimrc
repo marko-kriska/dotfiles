@@ -170,13 +170,13 @@ set cursorline
 set cursorcolumn
 syntax on
 set termguicolors
-colo gruvbox
-set background=dark
+colorscheme catppuccin_mocha
+"set background=dark
 
 call plug#begin()
 
 " List your plugins here
-Plug 'dracula/vim', { 'as': 'dracula' }
+"Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
