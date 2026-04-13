@@ -15,8 +15,7 @@ max-items 100
 
 # navigation
 goto-next-feed no
-# browser "firefox %u"
-# Koristimo 'flatpak-spawn' koji Toolbx koristi za komunikaciju s hostom
+#browser "xdg-open %u"
 browser "flatpak-spawn --host xdg-open %u > /dev/null 2>&1 &"
 bind-key j down feedlist
 bind-key k up feedlist
@@ -31,4 +30,4 @@ bind-key k up article
 confirm-exit no
 
 # theme
-include ~/.newsboat/colorschemes/dracula
+include ~/.newsboat/colorschemes/universal-color
