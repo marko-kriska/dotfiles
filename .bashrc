@@ -40,4 +40,4 @@ eval "$(atuin init bash)"
 alias ls='eza -al --color=always --group-directories-first'
 alias mpv='flatpak run io.mpv.Mpv'
 alias newsboat='toolbox run -c tui-apps newsboat'
-alias update='rpm-ostree update && flatpak update'
+alias tldr='toolbox run -c tui-apps tldr'
