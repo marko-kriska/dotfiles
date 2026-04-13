@@ -169,15 +169,12 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 syntax on
-set termguicolors
-colorscheme catppuccin_mocha
+"set termguicolors
+"colorscheme default
 "set background=dark
 
 call plug#begin()
 
 " List your plugins here
-"Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
-
-"colorscheme dracula
