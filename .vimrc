@@ -169,9 +169,9 @@ set number relativenumber
 set cursorline
 set cursorcolumn
 syntax on
-"set termguicolors
-"colorscheme default
-"set background=dark
+set termguicolors
+colorscheme gruvbox
+set background=dark
 
 call plug#begin()
 
