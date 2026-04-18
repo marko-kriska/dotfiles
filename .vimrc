@@ -170,7 +170,7 @@ set cursorline
 set cursorcolumn
 syntax on
 set termguicolors
-colorscheme catppuccin_macchiato
+colorscheme catppuccin_mocha
 "set background=dark
 
 call plug#begin()
