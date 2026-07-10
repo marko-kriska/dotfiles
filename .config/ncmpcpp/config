@@ -1,16 +1,36 @@
+# --- MPD Connection ---
 mpd_host = "localhost"
 mpd_port = "6600"
-mpd_music_dir = "~/Music"
+mpd_crossfade_time = "2"
 
-# Visualizer Configuration
-visualizer_data_source = "/tmp/mpd.fifo"
-visualizer_output_name = "Visualizer fifo"
-visualizer_in_stereo = "yes"
-visualizer_type = "spectrum" 
-visualizer_look = "+|"
+# --- Visualizer and Encoding ---
+visualizer_look = "●●"
+visualizer_color = "cyan,blue"
+system_encoding = "UTF-8"
 
-# UI Customization
-song_list_format = "{%a - %t}|{%f}"
-song_status_format = "{%t - %b}"
-browser_display_mode = "columns"
-#progressbar_look = "─⊙─"
+# --- Interface and Formats ---
+song_list_format = "{$8%a $2│ $7%t}$R{$3%b $2│ $4%l}"
+song_status_format = "{$8%a $2– $7%t}{ $2(%b)}"
+song_library_format = "{%n – }{%t}|{%f}"
+
+alternative_header_first_line_format = "$0$1$8 %t $5by $1$5%a$0"
+alternative_header_second_line_format = "$0$5%b$9 $5(%y)$0"
+
+# --- Progress Bar (Slim/Modern Tech Style) ---
+progressbar_look = "━╸━"
+progressbar_color = "black"
+progressbar_elapsed_color = "cyan"
+
+# --- UI Settings ---
+statusbar_visibility = "yes"
+header_visibility = "yes"
+titles_visibility = "yes"
+enable_window_title = "yes"
+cyclic_scrolling = "yes"
+
+# --- Modes and Behavior ---
+screen_switcher_mode = "media_library, playlist"
+startup_screen = "media_library"
+display_volume_level = "no"
+ignore_leading_the = "yes"
+allow_for_physical_item_deletion = "no"
