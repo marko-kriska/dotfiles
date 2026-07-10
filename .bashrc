@@ -31,6 +31,3 @@ export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="?:??:exit:quit:clear:ls:cd"
 
 eval "$(fzf --bash)"
-export FZF_DEFAULT_OPTS="--style full \
-  --preview 'fzf-preview.sh {}' \
-  --bind 'focus:transform-header:file --brief {}'"
