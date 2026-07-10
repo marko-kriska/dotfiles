@@ -24,21 +24,9 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# path
-export PATH=$PATH:~/.cargo/bin/
-
-# starship
-eval "$(starship init bash)"
-
-# atuin
-. "$HOME/.atuin/bin/env"
-
-[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-eval "$(atuin init bash)"
-
-# alias
 alias ls='eza -al --color=always --group-directories-first'
-alias mpv='flatpak run io.mpv.Mpv'
-alias newsboat='toolbox run -c tui-apps newsboat'
-alias tldr='toolbox run -c tui-apps tldr'
-alias update='flatpak update && rpm-ostree update'
+
+# fzf
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE="?:??:exit:quit:clear:ls:cd"
+eval "$(fzf --bash)"
