@@ -17,7 +17,7 @@ include catppuccin-mocha
 	set $right l
 #
 # Your preferred terminal emulator
-	set $term alacritty
+	set $term ptyxis
 #
 # Your preferred application launcher
 	set $menu fuzzel 
@@ -63,9 +63,8 @@ include catppuccin-mocha
 	bindsym $mod+p exec $menu
 #
 # App shortcuts
-	bindsym $mod+w exec librewolf 
-	bindsym $mod+Ctrl+m exec $term -e pulsemixer
-	bindsym $mod+Ctrl+r exec $term -e lowfi 
+	bindsym $mod+w exec firefox
+	bindsym $mod+Ctrl+m exec $term -e ncmpcpp
 	bindsym $mod+Ctrl+n exec $term -e newsboat
 #
 # Drag floating windows by holding down $mod and left mouse button.
@@ -137,9 +136,7 @@ include catppuccin-mocha
 #
 # Assign workspaces
 	assign [app_id="firefox"] 2
-	assign [app_id="librewolf"] 2
 	for_window [app_id="firefox"] focus
-	for_window [app_id="librewolf"] focus
 	for_window [app_id="firefox"] inhibit_idle fullscreen
 	for_window [app_id="mpv"] inhibit_idle fullscreen
 #
@@ -236,7 +233,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:FiraCode Nerd Font 12
+	font pango:IntoneMono Nerd Font 12
 #
 # Thin borders:
 	smart_borders on
