@@ -3,7 +3,7 @@
 ### Autostart
 #
 exec mako
-include catppuccin-mocha
+include catppuccin-macchiato
 #
 ### Variables
 #
@@ -17,10 +17,10 @@ include catppuccin-mocha
 	set $right l
 #
 # Your preferred terminal emulator
-	set $term ptyxis
+	set $term alacritty
 #
 # Your preferred application launcher
-	set $menu fuzzel 
+	set $menu rofi -show drun
 #
 # Hide Mouse Cursor
 	seat * hide_cursor when-typing enable
@@ -233,7 +233,7 @@ include catppuccin-mocha
 	default_border pixel 1
 #
 # Default Font
-	font pango:IntoneMono Nerd Font 12
+	font pango:JetBrainsMono Nerd Font 10
 #
 # Thin borders:
 	smart_borders on
