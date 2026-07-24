@@ -4,7 +4,7 @@
 @import "catppuccin-mocha"
 
 * {
-  font: "JetBrainsMono Nerd Font 10";
+  font: "IntoneMono Nerd Font 10";
   selected-active-foreground:  @background;
   lightfg:                     @text;
   separatorcolor:              @foreground;

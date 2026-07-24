@@ -2,7 +2,9 @@
 
 ### Autostart
 #
-exec mako
+exec dunst
+exec /usr/libexec/polkit-gnome-authentication-agent-1
+output * adaptive_sync on
 include catppuccin-macchiato
 #
 ### Variables
@@ -139,6 +141,8 @@ include catppuccin-macchiato
 	for_window [app_id="firefox"] focus
 	for_window [app_id="firefox"] inhibit_idle fullscreen
 	for_window [app_id="mpv"] inhibit_idle fullscreen
+	for_window [window_role="dialog"] floating enable
+	for_window [window_type="dialog"] floating enable
 #
 # Layout stuff:
 #
@@ -221,7 +225,7 @@ include catppuccin-macchiato
 	bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
 # Special key to take a screenshot with grim
-	#bindsym Print exec grim
+	bindsym $mod+Shift+s exec grim
 
 ### Theming
 #
@@ -233,7 +237,7 @@ include catppuccin-macchiato
 	default_border pixel 1
 #
 # Default Font
-	font pango:JetBrainsMono Nerd Font 10
+	font pango:IntoneMono Nerd Font 10
 #
 # Thin borders:
 	smart_borders on
